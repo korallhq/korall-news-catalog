@@ -6,7 +6,7 @@
 #   added: YYYY-MM-DD     on a new source (a further change the same day: YYYY-MM-DD.2, .3, …) (offered unselected, never forced)
 #   replaces: <old url>   when a feed moved (the source keeps its ID, selections and direct use)
 #   removed:              list of {url, title, removed: YYYY-MM-DD, reason} for dead sources
-version: '2026-10-06.2'
+version: '2026-10-06.3'
 folders:
 - title: Nachrichten
   sources:
@@ -89,6 +89,156 @@ folders:
     url: https://www.butenunbinnen.de/feed/rss/neuste-inhalte100.xml
     website: https://www.butenunbinnen.de/
     description: Nachrichten von Radio Bremen aus Bremen und Bremerhaven.
+  - title: Tagesschau Baden-Württemberg
+    url: https://www.tagesschau.de/inland/regional/badenwuerttemberg/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/badenwuerttemberg/
+    description: Regionalnachrichten der ARD aus Baden-Württemberg, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Bayern
+    url: https://www.tagesschau.de/inland/regional/bayern/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/bayern/
+    description: Regionalnachrichten der ARD aus Bayern, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Berlin
+    url: https://www.tagesschau.de/inland/regional/berlin/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/berlin/
+    description: Regionalnachrichten der ARD aus Berlin, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Brandenburg
+    url: https://www.tagesschau.de/inland/regional/brandenburg/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/brandenburg/
+    description: Regionalnachrichten der ARD aus Brandenburg, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Bremen
+    url: https://www.tagesschau.de/inland/regional/bremen/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/bremen/
+    description: Regionalnachrichten der ARD aus Bremen, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Hamburg
+    url: https://www.tagesschau.de/inland/regional/hamburg/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/hamburg/
+    description: Regionalnachrichten der ARD aus Hamburg, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Hessen
+    url: https://www.tagesschau.de/inland/regional/hessen/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/hessen/
+    description: Regionalnachrichten der ARD aus Hessen, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Mecklenburg-Vorpommern
+    url: https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/
+    description: Regionalnachrichten der ARD aus Mecklenburg-Vorpommern, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Niedersachsen
+    url: https://www.tagesschau.de/inland/regional/niedersachsen/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/niedersachsen/
+    description: Regionalnachrichten der ARD aus Niedersachsen, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Nordrhein-Westfalen
+    url: https://www.tagesschau.de/inland/regional/nordrheinwestfalen/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/nordrheinwestfalen/
+    description: Regionalnachrichten der ARD aus Nordrhein-Westfalen, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Rheinland-Pfalz
+    url: https://www.tagesschau.de/inland/regional/rheinlandpfalz/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/rheinlandpfalz/
+    description: Regionalnachrichten der ARD aus Rheinland-Pfalz, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Saarland
+    url: https://www.tagesschau.de/inland/regional/saarland/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/saarland/
+    description: Regionalnachrichten der ARD aus dem Saarland, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Sachsen
+    url: https://www.tagesschau.de/inland/regional/sachsen/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/sachsen/
+    description: Regionalnachrichten der ARD aus Sachsen, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Sachsen-Anhalt
+    url: https://www.tagesschau.de/inland/regional/sachsenanhalt/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/sachsenanhalt/
+    description: Regionalnachrichten der ARD aus Sachsen-Anhalt, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Schleswig-Holstein
+    url: https://www.tagesschau.de/inland/regional/schleswigholstein/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/schleswigholstein/
+    description: Regionalnachrichten der ARD aus Schleswig-Holstein, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Tagesschau Thüringen
+    url: https://www.tagesschau.de/inland/regional/thueringen/index~rss2.xml
+    website: https://www.tagesschau.de/inland/regional/thueringen/
+    description: Regionalnachrichten der ARD aus Thüringen, gebündelt bei tagesschau.de.
+    added: 2026-10-06
+  - title: Ruhr Nachrichten Dortmund
+    url: https://www.ruhrnachrichten.de/dortmund/feed/
+    website: https://www.ruhrnachrichten.de/dortmund/
+    description: Lokalnachrichten der Ruhr Nachrichten aus Dortmund zu Stadtpolitik, Verkehr, Wirtschaft und Alltag.
+    added: 2026-10-06
+  - title: Dresdner Neueste Nachrichten Dresden
+    url: https://www.dnn.de/arc/outboundfeeds/rss/category/lokales/dresden/?outputType=xml
+    website: https://www.dnn.de/lokales/dresden/
+    description: Lokalnachrichten der Dresdner Neuesten Nachrichten aus Dresden zu Stadtpolitik, Verkehr, Kultur und Alltag.
+    added: 2026-10-06
+  - title: Rheinische Post Duisburg
+    url: https://rp-online.de/nrw/staedte/duisburg/feed.rss
+    website: https://rp-online.de/nrw/staedte/duisburg/
+    description: Lokalnachrichten der Rheinischen Post aus Duisburg zu Stadtpolitik, Verkehr, Wirtschaft und Alltag.
+    added: 2026-10-06
+  - title: Rheinische Post Düsseldorf
+    url: https://rp-online.de/nrw/staedte/duesseldorf/feed.rss
+    website: https://rp-online.de/nrw/staedte/duesseldorf/
+    description: Lokalnachrichten der Rheinischen Post aus Düsseldorf zu Stadtpolitik, Verkehr, Kultur und Alltag.
+    added: 2026-10-06
+  - title: Frankfurter Rundschau Frankfurt
+    url: https://www.fr.de/frankfurt/rssfeed.rdf
+    website: https://www.fr.de/frankfurt/
+    description: Lokalnachrichten der Frankfurter Rundschau aus Frankfurt am Main zu Stadtpolitik, Verkehr, Kultur und Alltag.
+    added: 2026-10-06
+  - title: Hannoversche Allgemeine Hannover
+    url: https://www.haz.de/arc/outboundfeeds/rss/category/lokales/hannover/?outputType=xml
+    website: https://www.haz.de/lokales/hannover/
+    description: Lokalnachrichten der Hannoverschen Allgemeinen aus Hannover zu Stadtpolitik, Verkehr, Wirtschaft und Alltag.
+    added: 2026-10-06
+  - title: HNA Kassel
+    url: https://www.hna.de/kassel/rssfeed.rdf
+    website: https://www.hna.de/kassel/
+    description: Lokalnachrichten der Hessischen/Niedersächsischen Allgemeinen aus Kassel zu Stadtpolitik, Wirtschaft, Kultur und Alltag.
+    added: 2026-10-06
+  - title: Rheinische Post Köln
+    url: https://rp-online.de/nrw/staedte/koeln/feed.rss
+    website: https://rp-online.de/nrw/staedte/koeln/
+    description: Lokalnachrichten der Rheinischen Post aus Köln zu Stadtpolitik, Verkehr, Kultur und Alltag.
+    added: 2026-10-06
+  - title: Leipziger Volkszeitung Leipzig
+    url: https://www.lvz.de/arc/outboundfeeds/rss/category/lokales/leipzig/?outputType=xml
+    website: https://www.lvz.de/lokales/leipzig/
+    description: Lokalnachrichten der Leipziger Volkszeitung aus Leipzig zu Stadtpolitik, Verkehr, Kultur und Alltag.
+    added: 2026-10-06
+  - title: Rheinische Post Moers
+    url: https://rp-online.de/nrw/staedte/moers/feed.rss
+    website: https://rp-online.de/nrw/staedte/moers/
+    description: Lokalnachrichten der Rheinischen Post aus Moers zu Stadtpolitik, Verkehr, Wirtschaft und Alltag.
+    added: 2026-10-06
+  - title: Süddeutsche Zeitung München
+    url: https://rss.sueddeutsche.de/rss/Muenchen
+    website: https://www.sueddeutsche.de/muenchen
+    description: Lokalnachrichten der Süddeutschen Zeitung aus München zu Stadtpolitik, Verkehr, Kultur und Alltag.
+    added: 2026-10-06
+  - title: Offenbach-Post Offenbach
+    url: https://www.op-online.de/offenbach/rssfeed.rdf
+    website: https://www.op-online.de/offenbach/
+    description: Lokalnachrichten der Offenbach-Post aus Offenbach am Main zu Stadtpolitik, Wirtschaft, Kultur und Alltag.
+    added: 2026-10-06
+  - title: Märkische Allgemeine Potsdam
+    url: https://www.maz-online.de/arc/outboundfeeds/rss/category/lokales/potsdam/?outputType=xml
+    website: https://www.maz-online.de/lokales/potsdam/
+    description: Lokalnachrichten der Märkischen Allgemeinen aus Potsdam zu Stadtpolitik, Verkehr, Kultur und Alltag.
+    added: 2026-10-06
+  - title: Trierischer Volksfreund Trier
+    url: https://www.volksfreund.de/region/trier-trierer-land/feed.rss
+    website: https://www.volksfreund.de/region/trier-trierer-land/
+    description: Lokalnachrichten des Trierischen Volksfreunds aus Trier und dem Trierer Land zu Stadtpolitik, Wirtschaft, Kultur und Alltag.
+    added: 2026-10-06
 - title: Tech & KI
   sources:
   - title: 9to5Mac

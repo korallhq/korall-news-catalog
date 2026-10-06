@@ -38,6 +38,17 @@ removed:                         # dead or discontinued feeds
   reason: Feed eingestellt.
 ```
 
+## Regional coverage
+
+The **Regional** folder includes a separate ARD feed for every German federal state, existing
+regional broadcasters, and local reporting from a mix of large and medium-sized cities.
+See the [regional source review](docs/regional-sources.md) for coverage, publisher overlap and
+the dated feed checks. Public RSS access does not imply access to the full article.
+
+Catalogue availability alone does not populate a section: administrators confirm catalogue
+updates, and each profile selects the sources relevant to its region. State feeds can complement
+local reporting, but are not a substitute for city feeds or a second independent newsroom.
+
 ## Contributing
 
 **Missing sources for a topic?** Open an issue with the “Sources wanted” form – korall links there

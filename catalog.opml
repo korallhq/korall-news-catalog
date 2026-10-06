@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <opml version="2.0">
   <head>
-    <title>korall news catalog 2026-10-06.2</title>
+    <title>korall news catalog 2026-10-06.3</title>
   </head>
   <body>
     <outline text="Nachrichten" title="Nachrichten">
@@ -24,6 +24,36 @@
       <outline type="rss" text="hessenschau" title="hessenschau" xmlUrl="https://www.hessenschau.de/index.rss" htmlUrl="https://www.hessenschau.de/" />
       <outline type="rss" text="rbb24" title="rbb24" xmlUrl="https://www.rbb24.de/aktuell/index.xml/feed=rss.xml" htmlUrl="https://www.rbb24.de/" />
       <outline type="rss" text="buten un binnen" title="buten un binnen" xmlUrl="https://www.butenunbinnen.de/feed/rss/neuste-inhalte100.xml" htmlUrl="https://www.butenunbinnen.de/" />
+      <outline type="rss" text="Tagesschau Baden-Württemberg" title="Tagesschau Baden-Württemberg" xmlUrl="https://www.tagesschau.de/inland/regional/badenwuerttemberg/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/badenwuerttemberg/" />
+      <outline type="rss" text="Tagesschau Bayern" title="Tagesschau Bayern" xmlUrl="https://www.tagesschau.de/inland/regional/bayern/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/bayern/" />
+      <outline type="rss" text="Tagesschau Berlin" title="Tagesschau Berlin" xmlUrl="https://www.tagesschau.de/inland/regional/berlin/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/berlin/" />
+      <outline type="rss" text="Tagesschau Brandenburg" title="Tagesschau Brandenburg" xmlUrl="https://www.tagesschau.de/inland/regional/brandenburg/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/brandenburg/" />
+      <outline type="rss" text="Tagesschau Bremen" title="Tagesschau Bremen" xmlUrl="https://www.tagesschau.de/inland/regional/bremen/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/bremen/" />
+      <outline type="rss" text="Tagesschau Hamburg" title="Tagesschau Hamburg" xmlUrl="https://www.tagesschau.de/inland/regional/hamburg/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/hamburg/" />
+      <outline type="rss" text="Tagesschau Hessen" title="Tagesschau Hessen" xmlUrl="https://www.tagesschau.de/inland/regional/hessen/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/hessen/" />
+      <outline type="rss" text="Tagesschau Mecklenburg-Vorpommern" title="Tagesschau Mecklenburg-Vorpommern" xmlUrl="https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/" />
+      <outline type="rss" text="Tagesschau Niedersachsen" title="Tagesschau Niedersachsen" xmlUrl="https://www.tagesschau.de/inland/regional/niedersachsen/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/niedersachsen/" />
+      <outline type="rss" text="Tagesschau Nordrhein-Westfalen" title="Tagesschau Nordrhein-Westfalen" xmlUrl="https://www.tagesschau.de/inland/regional/nordrheinwestfalen/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/nordrheinwestfalen/" />
+      <outline type="rss" text="Tagesschau Rheinland-Pfalz" title="Tagesschau Rheinland-Pfalz" xmlUrl="https://www.tagesschau.de/inland/regional/rheinlandpfalz/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/rheinlandpfalz/" />
+      <outline type="rss" text="Tagesschau Saarland" title="Tagesschau Saarland" xmlUrl="https://www.tagesschau.de/inland/regional/saarland/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/saarland/" />
+      <outline type="rss" text="Tagesschau Sachsen" title="Tagesschau Sachsen" xmlUrl="https://www.tagesschau.de/inland/regional/sachsen/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/sachsen/" />
+      <outline type="rss" text="Tagesschau Sachsen-Anhalt" title="Tagesschau Sachsen-Anhalt" xmlUrl="https://www.tagesschau.de/inland/regional/sachsenanhalt/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/sachsenanhalt/" />
+      <outline type="rss" text="Tagesschau Schleswig-Holstein" title="Tagesschau Schleswig-Holstein" xmlUrl="https://www.tagesschau.de/inland/regional/schleswigholstein/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/schleswigholstein/" />
+      <outline type="rss" text="Tagesschau Thüringen" title="Tagesschau Thüringen" xmlUrl="https://www.tagesschau.de/inland/regional/thueringen/index~rss2.xml" htmlUrl="https://www.tagesschau.de/inland/regional/thueringen/" />
+      <outline type="rss" text="Ruhr Nachrichten Dortmund" title="Ruhr Nachrichten Dortmund" xmlUrl="https://www.ruhrnachrichten.de/dortmund/feed/" htmlUrl="https://www.ruhrnachrichten.de/dortmund/" />
+      <outline type="rss" text="Dresdner Neueste Nachrichten Dresden" title="Dresdner Neueste Nachrichten Dresden" xmlUrl="https://www.dnn.de/arc/outboundfeeds/rss/category/lokales/dresden/?outputType=xml" htmlUrl="https://www.dnn.de/lokales/dresden/" />
+      <outline type="rss" text="Rheinische Post Duisburg" title="Rheinische Post Duisburg" xmlUrl="https://rp-online.de/nrw/staedte/duisburg/feed.rss" htmlUrl="https://rp-online.de/nrw/staedte/duisburg/" />
+      <outline type="rss" text="Rheinische Post Düsseldorf" title="Rheinische Post Düsseldorf" xmlUrl="https://rp-online.de/nrw/staedte/duesseldorf/feed.rss" htmlUrl="https://rp-online.de/nrw/staedte/duesseldorf/" />
+      <outline type="rss" text="Frankfurter Rundschau Frankfurt" title="Frankfurter Rundschau Frankfurt" xmlUrl="https://www.fr.de/frankfurt/rssfeed.rdf" htmlUrl="https://www.fr.de/frankfurt/" />
+      <outline type="rss" text="Hannoversche Allgemeine Hannover" title="Hannoversche Allgemeine Hannover" xmlUrl="https://www.haz.de/arc/outboundfeeds/rss/category/lokales/hannover/?outputType=xml" htmlUrl="https://www.haz.de/lokales/hannover/" />
+      <outline type="rss" text="HNA Kassel" title="HNA Kassel" xmlUrl="https://www.hna.de/kassel/rssfeed.rdf" htmlUrl="https://www.hna.de/kassel/" />
+      <outline type="rss" text="Rheinische Post Köln" title="Rheinische Post Köln" xmlUrl="https://rp-online.de/nrw/staedte/koeln/feed.rss" htmlUrl="https://rp-online.de/nrw/staedte/koeln/" />
+      <outline type="rss" text="Leipziger Volkszeitung Leipzig" title="Leipziger Volkszeitung Leipzig" xmlUrl="https://www.lvz.de/arc/outboundfeeds/rss/category/lokales/leipzig/?outputType=xml" htmlUrl="https://www.lvz.de/lokales/leipzig/" />
+      <outline type="rss" text="Rheinische Post Moers" title="Rheinische Post Moers" xmlUrl="https://rp-online.de/nrw/staedte/moers/feed.rss" htmlUrl="https://rp-online.de/nrw/staedte/moers/" />
+      <outline type="rss" text="Süddeutsche Zeitung München" title="Süddeutsche Zeitung München" xmlUrl="https://rss.sueddeutsche.de/rss/Muenchen" htmlUrl="https://www.sueddeutsche.de/muenchen" />
+      <outline type="rss" text="Offenbach-Post Offenbach" title="Offenbach-Post Offenbach" xmlUrl="https://www.op-online.de/offenbach/rssfeed.rdf" htmlUrl="https://www.op-online.de/offenbach/" />
+      <outline type="rss" text="Märkische Allgemeine Potsdam" title="Märkische Allgemeine Potsdam" xmlUrl="https://www.maz-online.de/arc/outboundfeeds/rss/category/lokales/potsdam/?outputType=xml" htmlUrl="https://www.maz-online.de/lokales/potsdam/" />
+      <outline type="rss" text="Trierischer Volksfreund Trier" title="Trierischer Volksfreund Trier" xmlUrl="https://www.volksfreund.de/region/trier-trierer-land/feed.rss" htmlUrl="https://www.volksfreund.de/region/trier-trierer-land/" />
     </outline>
     <outline text="Tech &amp; KI" title="Tech &amp; KI">
       <outline type="rss" text="9to5Mac" title="9to5Mac" xmlUrl="https://9to5mac.com/feed/" htmlUrl="https://9to5mac.com/" />
