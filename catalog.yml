@@ -1,0 +1,740 @@
+# Source catalogue for korall: seed of an empty library, sources to pick in the library and the
+# catalogue update offered to existing installations. Descriptions are written in German.
+# Each source needs title and url (RSS or Atom feed); website and description are optional.
+#
+# Updates: raise `version` and date every change, so installations only see what is new to them.
+#   added: YYYY-MM-DD     on a new source (offered unselected, never forced)
+#   replaces: <old url>   when a feed moved (the source keeps its ID, selections and direct use)
+#   removed:              list of {url, title, removed: YYYY-MM-DD, reason} for dead sources
+version: 2026-10-06
+folders:
+- title: Nachrichten
+  sources:
+  - title: BBC World
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+    website: https://www.bbc.co.uk/
+    description: Nachrichtenportal der britischen BBC mit internationalen Meldungen zu Politik, Gesellschaft, Sport
+      und Wissenschaft, überwiegend auf Englisch.
+  - title: Deutsche Welle
+    url: https://rss.dw.com/xml/rss-de-all
+    website: https://www.dw.com/de/
+    description: Deutschsprachige Nachrichten der Deutschen Welle mit internationalem Blick auf Politik, Wirtschaft
+      und Gesellschaft.
+  - title: Deutschlandfunk Nachrichten
+    url: https://www.deutschlandfunk.de/nachrichten-100.rss
+    website: https://www.deutschlandfunk.de/
+    description: Deutschsprachige Nachrichtenredaktion mit Meldungen aus Politik, Wirtschaft und Gesellschaft, inklusive
+      Eilmeldungen.
+  - title: heute im bundestag
+    url: https://www.bundestag.de/static/appdata/includes/rss/hib.rss
+    website: https://www.bundestag.de/presse/hib
+    description: Pressedienst des Bundestags mit sachlichen Kurzmeldungen zu Gesetzentwürfen, Anfragen und Ausschüssen,
+      direkt aus dem Parlament.
+  - title: n-tv Politik
+    url: https://www.n-tv.de/politik/rss
+    website: https://www.n-tv.de/
+    description: Politik-Ressort des Nachrichtensenders n-tv mit schnellen Meldungen aus Deutschland und der Welt,
+      ohne Sport und Panorama.
+  - title: Notes from Poland
+    url: https://notesfrompoland.com/feed/
+    website: https://notesfrompoland.com/
+    description: Englischsprachige Nachrichtenseite über Polen mit Berichten zu Politik, Wirtschaft, Gesellschaft
+      und Geschichte.
+  - title: Tagesschau
+    url: https://www.tagesschau.de/xml/rss2/
+    website: https://www.tagesschau.de/
+    description: Nachrichtenportal der ARD mit aktuellen Meldungen aus Politik, Gesellschaft und internationalen
+      Ereignissen auf Deutsch.
+  - title: tagesschau Faktenfinder
+    url: https://www.tagesschau.de/faktenfinder/index~rss2.xml
+    website: https://www.tagesschau.de/faktenfinder
+    description: Faktenchecks der ARD zu Falschmeldungen, Desinformation und umstrittenen Behauptungen.
+  - title: The Guardian World
+    url: https://www.theguardian.com/world/rss
+    website: https://www.theguardian.com/world
+    description: Internationale Nachrichten der britischen Zeitung The Guardian mit ausführlichen Texten im Feed,
+      auf Englisch.
+  - title: ZDFheute
+    url: https://www.zdfheute.de/rss/zdf/nachrichten
+    website: https://www.zdfheute.de/
+    description: Nachrichtenangebot des ZDF mit Meldungen, Hintergründen und Erklärstücken zu Politik, Gesellschaft
+      und Wirtschaft.
+- title: Regional
+  sources:
+  - title: WDR
+    url: https://www1.wdr.de/uebersicht-100.feed
+    website: https://www1.wdr.de/nachrichten/
+    description: Nachrichten des Westdeutschen Rundfunks aus Nordrhein-Westfalen.
+  - title: NDR
+    url: https://www.ndr.de/index~rdf.xml
+    website: https://www.ndr.de/nachrichten/
+    description: Nachrichten des Norddeutschen Rundfunks aus Hamburg, Niedersachsen, Schleswig-Holstein und Mecklenburg-Vorpommern.
+  - title: MDR
+    url: https://www.mdr.de/nachrichten/index~rss2.xml
+    website: https://www.mdr.de/nachrichten/
+    description: Nachrichten des Mitteldeutschen Rundfunks aus Sachsen, Sachsen-Anhalt und Thüringen.
+  - title: SWR Aktuell
+    url: https://www.swr.de/~rss/swraktuell/index.xml
+    website: https://www.swr.de/swraktuell/
+    description: Nachrichten des Südwestrundfunks aus Baden-Württemberg und Rheinland-Pfalz.
+  - title: hessenschau
+    url: https://www.hessenschau.de/index.rss
+    website: https://www.hessenschau.de/
+    description: Nachrichten des Hessischen Rundfunks aus Hessen.
+  - title: rbb24
+    url: https://www.rbb24.de/aktuell/index.xml/feed=rss.xml
+    website: https://www.rbb24.de/
+    description: Nachrichten des Rundfunks Berlin-Brandenburg aus Berlin und Brandenburg.
+  - title: buten un binnen
+    url: https://www.butenunbinnen.de/feed/rss/neuste-inhalte100.xml
+    website: https://www.butenunbinnen.de/
+    description: Nachrichten von Radio Bremen aus Bremen und Bremerhaven.
+- title: Tech & KI
+  sources:
+  - title: 9to5Mac
+    url: https://9to5mac.com/feed/
+    website: https://9to5mac.com/
+    description: Nachrichtenmagazin zu Apple-Produkten, iOS/macOS, Apps und Gerüchten, auf Englisch.
+  - title: AdGuard Blog
+    url: https://adguard.com/blog/rss-en.xml
+    website: https://adguard.com/
+    description: Blog des Werbeblocker-Herstellers AdGuard zu Produktupdates, Datenschutz und Werbung, auf Englisch.
+  - title: Anthropic News
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml
+    website: https://www.anthropic.com/
+    description: Unternehmensnachrichten und Blogbeiträge des KI-Anbieters Anthropic, auf Englisch.
+  - title: Ars Technica
+    url: https://feeds.arstechnica.com/arstechnica/index
+    website: https://arstechnica.com/
+    description: Englischsprachiges Technikmagazin mit ausführlichen Artikeln zu IT, Wissenschaft, Politik und Spielen.
+  - title: Brave Blog
+    url: https://brave.com/blog/index.xml
+    website: https://brave.com/blog/
+    description: Blog des Brave-Browsers zu neuen Funktionen, Datenschutz, Suche und Werbung ohne Tracking, auf
+      Englisch.
+  - title: Caschys Blog
+    url: https://stadt-bremerhaven.de/feed/
+    website: https://stadt-bremerhaven.de/
+    description: Deutschsprachiger Tech-Blog mit Meldungen zu Gadgets, Streaming, Mobilfunk, Software und Netzpolitik.
+  - title: ComputerBase
+    url: https://www.computerbase.de/rss/news.xml
+    website: https://www.computerbase.de/
+    description: Deutschsprachiges Technikportal mit News und Tests zu Hardware, Software, Spielen und Smartphones.
+  - title: Console
+    url: https://console.dev/tools/rss.xml
+    website: https://github.com/
+    description: Englischsprachige Linkliste zu Software- und Entwicklerprojekten, die neue Tools und Frameworks
+      vorstellt.
+  - title: Flexibits
+    url: https://flexibits.com/blog?feed=rss2
+    website: https://flexibits.com/
+    description: Englischsprachiger Blog des Softwareherstellers Flexibits mit Produktneuigkeiten zu Fantastical
+      und Cardhop.
+  - title: Golem
+    url: https://rss.golem.de/rss.php?feed=RSS2.0
+    website: https://www.golem.de/
+    description: Deutschsprachiges IT-Nachrichtenportal zu Hardware, Software, Netzpolitik, Spielen und Wissenschaft.
+  - title: Google Blog
+    url: https://blog.google/rss/
+    website: https://blog.google/
+    description: Englischsprachiger Unternehmensblog von Google mit Produktankündigungen, KI-Themen und Initiativen.
+  - title: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+    website: https://deepmind.google/
+    description: Blog von Google DeepMind mit englischsprachigen Ankündigungen zu KI-Modellen, Forschung und Sicherheit,
+      darunter Gemini-Versionen und wissenschaftliche Projekte.
+  - title: heise online News
+    url: https://www.heise.de/rss/heise-atom.xml
+    website: https://www.heise.de/
+    description: Deutschsprachige IT-Nachrichten von heise online zu Sicherheit, Software, Hardware, Netzpolitik
+      und Entwicklerthemen im Überblick.
+  - title: Hueblog.de
+    url: https://hueblog.de/feed/
+    website: https://hueblog.de/
+    description: Deutschsprachiger Blog rund um Philips Hue und Smart-Home-Beleuchtung mit Tests, Produktneuheiten,
+      Updates und Rabattaktionen.
+  - title: Hugging Face - Blog
+    url: https://huggingface.co/blog/feed.xml
+    website: https://huggingface.co/blog
+    description: Englischsprachiger Blog von Hugging Face mit Beiträgen zu Machine Learning, Modellen, Trainingsinfrastruktur
+      und Evaluation.
+  - title: Julia Evans
+    url: https://jvns.ca/atom.xml
+    website: https://jvns.ca/
+    description: Persönlicher englischsprachiger Blog von Julia Evans mit vereinzelten technischen Beiträgen und
+      Alltagsbasteleien.
+  - title: Kagi Blog
+    url: https://blog.kagi.com/rss.xml
+    website: https://blog.kagi.com/
+    description: Englischsprachiger Blog der Suchmaschine Kagi mit Ankündigungen und Updates zu Produkten wie Orion
+      und Kagi Translate.
+  - title: Kagi Release Notes
+    url: https://kagifeedback.org/atom/t/release-notes
+    website: https://kagifeedback.org/
+    description: Englischsprachige Release Notes zu Kagi mit datierten Einträgen zu neuen Funktionen, Anmeldung
+      und Übersetzungsdiensten.
+  - title: Kuketz IT-Security
+    url: https://www.kuketz-blog.de/feed/
+    website: https://www.kuketz-blog.de/
+    description: Deutschsprachiger Blog zu IT-Sicherheit, Datenschutz und digitaler Selbstbestimmung, mit Tests
+      und Anleitungen zu Hardware, Apps und Diensten.
+  - title: MIT Technology Review
+    url: https://www.technologyreview.com/feed/
+    website: https://www.technologyreview.com
+    description: Englischsprachiges Technologiemagazin mit Nachrichten und Analysen zu KI, Klima, Biotechnologie
+      und Digitalpolitik.
+  - title: Mullvad Blog
+    url: https://mullvad.net/de/blog/feed/atom/
+    website: https://www.mullvad.net/
+    description: Englischsprachiger Blog des VPN-Anbieters Mullvad mit Meldungen zu Datenschutz, Netzwerksicherheit
+      und eigenen Diensten.
+  - title: n-tv Technik
+    url: https://www.n-tv.de/technik/rss
+    website: https://www.n-tv.de/
+    description: Technik-Ressort von n-tv zu Smartphones, Internet, Sicherheit und Unterhaltungselektronik.
+  - title: netzpolitik.org
+    url: https://netzpolitik.org/feed/
+    website: https://netzpolitik.org/
+    description: Deutschsprachige Redaktion zu Digitalpolitik, Überwachung, Datenschutz und Grundrechten; Artikel
+      vollständig im Feed.
+  - title: OpenAI News
+    url: https://openai.com/news/rss.xml
+    website: https://openai.com/
+    description: Offizielle News- und Ankündigungsseite von OpenAI mit Produktvorstellungen, Kundenberichten und
+      Forschungsthemen zu KI-Modellen; englischsprachig.
+  - title: Orion Release Notes
+    url: https://orionfeedback.org/atom/t/release-notes
+    website: https://orionbrowser.com/
+    description: Release-Notes-Seite des Orion-Browsers mit Versionshinweisen und Updates für macOS sowie iOS/iPadOS;
+      englischsprachig.
+  - title: Simon Willison's Weblog
+    url: https://simonwillison.net/atom/everything/
+    website: http://simonwillison.net/
+    description: Englischsprachiger Blog von Simon Willison über KI-Modelle, LLMs und Webentwicklung mit Zitaten,
+      Analysen und Projektvorstellungen.
+  - title: TARNKAPPE.INFO
+    url: https://tarnkappe.info/feed
+    website: https://tarnkappe.info/
+    description: Deutschsprachiges Blog zu Urheberrecht, Filesharing, Datenschutz, Sicherheitslücken und Netzpolitik.
+  - title: THE DECODER
+    url: https://the-decoder.de/feed/
+    website: https://the-decoder.de/
+    description: Deutschsprachiges Nachrichtenportal zu Künstlicher Intelligenz, KI-Forschung und Produkten.
+  - title: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    website: https://www.theverge.com/
+    description: Englischsprachiges Technikmagazin mit Nachrichten zu Gadgets, Plattformen, KI und Digitalkultur.
+  - title: TorrentFreak
+    url: https://torrentfreak.com/feed/
+    website: https://torrentfreak.com/
+    description: Englischsprachiges Blog zu Urheberrecht, Filesharing, Streaming-Piraterie und Netzsperren.
+  - title: Vivaldi Blog
+    url: https://vivaldi.com/feed/
+    website: https://vivaldi.com/blog/
+    description: Blog des Vivaldi-Browsers, überwiegend Versionshinweise für Desktop und Mobil, dazu Beiträge zu
+      Datenschutz und einem besseren Web, auf Englisch.
+- title: Cloud & IT
+  sources:
+  - title: allesnurgecloud.com
+    url: https://allesnurgecloud.com/feed/
+    website: https://allesnurgecloud.com/
+    description: Podcast-Blog mit wöchentlichen IT- und Cloud-Nachrichten, auf Deutsch.
+  - title: AWS Architecture Blog
+    url: https://aws.amazon.com/blogs/architecture/feed/
+    website: https://aws.amazon.com/
+    description: Technischer Blog von AWS zu Architektur, Cloud-Migration und KI-Anwendungen, auf Englisch.
+  - title: AWS Networking & Content Delivery
+    url: https://aws.amazon.com/blogs/networking-and-content-delivery/feed/
+    website: https://aws.amazon.com/
+    description: Technischer Blog von AWS zu Netzwerk- und Content-Delivery-Themen, auf Englisch.
+  - title: AWS News Blog
+    url: http://feeds.feedburner.com/AmazonWebServicesBlog
+    website: https://aws.amazon.com/
+    description: Produkt- und Serviceankündigungen sowie Neuigkeiten von AWS, auf Englisch.
+  - title: AWS Security Blog
+    url: https://aws.amazon.com/blogs/security/feed/
+    website: https://aws.amazon.com/
+    description: Technischer Blog von AWS zu Sicherheit, Identität und Compliance, auf Englisch.
+  - title: Google Cloud Blog
+    url: https://cloudblog.withgoogle.com/rss/
+    website: https://cloud.google.com/
+    description: Englischsprachiger Blog von Google Cloud mit Produktankündigungen, technischen Artikeln und Cloud-Themen.
+  - title: HashiCorp Blog
+    url: https://www.hashicorp.com/blog/feed.xml
+    website: https://www.hashicorp.com/
+    description: Englischsprachiger Blog von HashiCorp mit Produktankündigungen, Release Notes und Sicherheitsthemen
+      zu Terraform, Vault, Boundary und verwandten Tools.
+  - title: Wiz Blog
+    url: https://www.wiz.io/feed/rss.xml
+    website: https://www.wiz.io/
+    description: Englischsprachiger Sicherheitsblog zu Cloud-Sicherheit, Schwachstellen und Angriffen.
+- title: Unternehmen
+  sources:
+  - title: Amazon News
+    url: https://www.aboutamazon.com/rss/feed.rss
+    website: https://www.aboutamazon.com/
+    description: Offizielle Unternehmensnachrichten von Amazon zu Handel, Logistik, Cloud (AWS) und Geräten, auf
+      Englisch.
+  - title: Apple Newsroom
+    url: https://www.apple.com/newsroom/rss-feed.rss
+    website: https://www.apple.com/newsroom/
+    description: Pressemitteilungen und Ankündigungen von Apple zu Produkten, Software und Unternehmen, auf Englisch.
+  - title: BMW Group PressClub
+    url: https://www.press.bmwgroup.com/deutschland/rss
+    website: https://www.press.bmwgroup.com/deutschland
+    description: Pressemitteilungen der BMW Group Deutschland zu Fahrzeugen, Werken, Technik und Unternehmen.
+  - title: Carnival Corporation
+    url: https://www.carnivalcorp.com/feed/
+    website: https://www.carnivalcorp.com/
+    description: Unternehmensnachrichten des Kreuzfahrtkonzerns Carnival (u. a. AIDA, Costa) zu Flotte, Strategie
+      und Zahlen, auf Englisch.
+  - title: Disney
+    url: https://thewaltdisneycompany.com/feed/
+    website: https://thewaltdisneycompany.com/
+    description: Unternehmensblog der Walt Disney Company zu Filmen, Streaming, Parks und Konzern, auf Englisch.
+  - title: FRoSTA Blog
+    url: https://www.frosta.de/feed/
+    website: https://www.frosta.de/
+    description: Blog des Tiefkühlherstellers FRoSTA zu Produkten, Herkunft der Zutaten und Nachhaltigkeit.
+  - title: Henkel Presse
+    url: https://www.henkel.de/service/de/197842/asFeed/index.xml
+    website: https://www.henkel.de/
+    description: Pressemitteilungen von Henkel Deutschland zu Marken, Standorten und Unternehmen.
+  - title: Meta Newsroom
+    url: https://about.fb.com/feed/
+    website: https://about.fb.com/news/
+    description: Offizielle Ankündigungen von Meta zu Facebook, Instagram, WhatsApp, KI und Hardware, auf Englisch.
+  - title: NVIDIA Newsroom
+    url: https://nvidianews.nvidia.com/releases.xml
+    website: https://nvidianews.nvidia.com/
+    description: Pressemitteilungen von NVIDIA zu Chips, KI-Plattformen, Partnerschaften und Quartalszahlen, auf
+      Englisch.
+  - title: Samsung Newsroom
+    url: https://news.samsung.com/global/feed
+    website: https://news.samsung.com/global/
+    description: Globale Unternehmensnachrichten von Samsung zu Smartphones, Halbleitern und Haushaltsgeräten, auf
+      Englisch.
+  - title: SAP News Center
+    url: https://news.sap.com/germany/feed/
+    website: https://news.sap.com/germany/
+    description: Deutschsprachige Unternehmensnachrichten von SAP zu Software, Cloud, KI und Kunden.
+  - title: Siemens Press
+    url: https://press.siemens.com/global/en/rss.xml
+    website: https://press.siemens.com/global/en
+    description: Pressemitteilungen von Siemens zu Industrie, Infrastruktur, Mobilität und Digitalisierung, auf
+      Englisch.
+  - title: Spotify Newsroom
+    url: https://newsroom.spotify.com/feed/
+    website: https://newsroom.spotify.com/
+    description: Ankündigungen von Spotify zu Funktionen, Podcasts, Musikbranche und Unternehmen, auf Englisch.
+  - title: Volkswagen Newsroom
+    url: https://www.volkswagen-newsroom.com/de/feeds/pressemitteilungen
+    website: https://www.volkswagen-newsroom.com/de
+    description: Pressemitteilungen der Marke Volkswagen zu Modellen, E-Mobilität, Werken und Unternehmen.
+- title: Finanzen
+  sources:
+  - title: abilitato.de
+    url: https://abilitato.de/feed/
+    website: https://abilitato.de/
+    description: Blog mit Analysen zu einzelnen Aktien und Bewertungen, auf Deutsch.
+  - title: Aktiengram
+    url: https://aktiengram.de/feed/
+    website: https://aktiengram.de/
+    description: Blog über Dividenden, ETFs, Broker und persönliche Finanzanlagen, auf Deutsch.
+  - title: Blocktrainer
+    url: https://www.blocktrainer.de/feed.xml
+    website: https://www.blocktrainer.de/
+    description: Deutschsprachiger Blog zu Bitcoin, Kryptowährungen, Regulierung und Marktentwicklungen mit täglichen
+      Meldungen und Analysen.
+  - title: Capital.de
+    url: https://www.capital.de/feed/standard/
+    website: https://www.capital.de/
+    description: Deutschsprachiges Wirtschaftsmagazin mit Artikeln zu Geldanlage, Finanzen, Immobilien, Rente und
+      Unternehmen, teils mit Bezahlschranke.
+  - title: n-tv Wirtschaft
+    url: https://www.n-tv.de/wirtschaft/rss
+    website: https://www.n-tv.de/
+    description: Wirtschafts-Ressort von n-tv mit Meldungen zu Konjunktur, Unternehmen, Börse und Verbraucherthemen.
+- title: Ratgeber & Verbraucher
+  sources:
+  - title: n-tv Ratgeber
+    url: https://www.n-tv.de/ratgeber/rss
+    website: https://www.n-tv.de/
+    description: Ratgeber-Ressort von n-tv zu Geld, Recht, Versicherungen, Gesundheit und Verbraucherthemen.
+  - title: Stiftung Warentest
+    url: https://www.test.de/rss/alles/
+    website: https://www.test.de/
+    description: Meldungen der Stiftung Warentest zu Tests, Rückrufen und Verbraucherrechten; ausführliche Testergebnisse
+      teils kostenpflichtig.
+- title: Wissen
+  sources:
+  - title: Klimareporter
+    url: https://klimareporter.de/?format=feed&type=rss
+    website: https://klimareporter.de/
+    description: Deutschsprachiges Magazin zu Klimapolitik, Energiewende und Klimaforschung.
+  - title: n-tv Wissen
+    url: https://www.n-tv.de/wissen/rss
+    website: https://www.n-tv.de/
+    description: Wissen-Ressort von n-tv mit Meldungen aus Forschung, Medizin, Klima und Raumfahrt.
+  - title: Quanta Magazine
+    url: https://www.quantamagazine.org/feed/
+    website: https://www.quantamagazine.org/
+    description: Englischsprachiges Magazin über Mathematik, Physik, Biologie und Informatik, verständlich erklärt.
+  - title: scinexx
+    url: https://www.scinexx.de/feed/
+    website: https://www.scinexx.de/
+    description: Deutschsprachiges Wissensmagazin zu Forschung aus Natur, Technik, Medizin und Kosmos; Artikel vollständig
+      im Feed.
+  - title: Spektrum.de
+    url: https://www.spektrum.de/alias/rss/spektrum-de-rss-feed/996406
+    website: https://www.spektrum.de/
+    description: Wissenschaftsmagazin mit Nachrichten und Hintergründen aus allen Forschungsgebieten; manche Artikel
+      kostenpflichtig.
+- title: Gesundheit
+  sources:
+  - title: Deutsches Ärzteblatt
+    url: 'https://www.aerzteblatt.de/rss/news.asp'
+    added: 2026-10-06
+    website: 'https://www.aerzteblatt.de/'
+    description: Fachzeitschrift der Ärzteschaft mit Nachrichten aus Medizin, Forschung und Gesundheitspolitik.
+  - title: tagesschau Gesundheit
+    url: 'https://www.tagesschau.de/wissen/gesundheit/index~rss2.xml'
+    added: 2026-10-06
+    website: 'https://www.tagesschau.de/wissen/gesundheit'
+    description: Gesundheitsressort der ARD mit Meldungen zu Medizin, Vorsorge und Gesundheitspolitik.
+  - title: DER SPIEGEL Gesundheit
+    url: 'https://www.spiegel.de/gesundheit/index.rss'
+    added: 2026-10-06
+    website: 'https://www.spiegel.de/gesundheit/'
+    description: Gesundheitsressort des SPIEGEL mit Berichten zu Medizin, Ernährung, Psyche und Fitness.
+  - title: NDR Visite
+    url: 'https://www.ndr.de/fernsehen/sendungen/visite/index~rss2.xml'
+    added: 2026-10-06
+    website: 'https://www.ndr.de/fernsehen/sendungen/visite/'
+    description: Gesundheitsmagazin des NDR mit verständlichen Ratgebern zu Krankheiten, Behandlungen und Vorsorge.
+  - title: BBC Health
+    url: 'https://feeds.bbci.co.uk/news/health/rss.xml'
+    added: 2026-10-06
+    website: 'https://www.bbc.co.uk/news/health'
+    description: Englischsprachige Gesundheitsnachrichten der BBC zu Medizin, Forschung und Gesundheitswesen.
+- title: Klima & Umwelt
+  sources:
+  - title: tagesschau Klima
+    url: 'https://www.tagesschau.de/wissen/klima/index~rss2.xml'
+    added: 2026-10-06
+    website: 'https://www.tagesschau.de/wissen/klima'
+    description: Klimaressort der ARD mit Nachrichten zu Klimawandel, Klimapolitik und Energiewende.
+  - title: taz Öko
+    url: 'https://taz.de/Oeko/!p4610;rss/'
+    added: 2026-10-06
+    website: 'https://taz.de/Oeko/!p4610/'
+    description: Ökologie-Ressort der taz zu Umwelt, Klima, Landwirtschaft und Konsum.
+  - title: Utopia
+    url: 'https://utopia.de/feed/'
+    added: 2026-10-06
+    website: 'https://utopia.de/'
+    description: Portal für einen nachhaltigen Alltag mit Tipps zu Energie, Ernährung und Konsum.
+  - title: RiffReporter
+    url: 'https://riff.media/de/rss'
+    added: 2026-10-06
+    website: 'https://www.riffreporter.de/'
+    description: Genossenschaft freier Journalistinnen und Journalisten mit Recherchen zu Umwelt, Natur und Wissenschaft.
+  - title: Carbon Brief
+    url: 'https://www.carbonbrief.org/feed'
+    added: 2026-10-06
+    website: 'https://www.carbonbrief.org/'
+    description: Englischsprachiges Fachportal zu Klimaforschung, Klimapolitik und Energie, mit Faktenchecks.
+  - title: Inside Climate News
+    url: 'https://insideclimatenews.org/feed/'
+    added: 2026-10-06
+    website: 'https://insideclimatenews.org/'
+    description: Englischsprachige Redaktion für Klima- und Umweltjournalismus mit ausführlichen Recherchen.
+- title: Auto
+  sources:
+  - title: DER SPIEGEL - Mobilität
+    url: https://www.spiegel.de/mobilitaet/index.rss
+    website: https://www.spiegel.de/
+    description: Deutschsprachige Nachrichtenseite mit Themenschwerpunkt Mobilität, Verkehr, Autoindustrie und Verkehrspolitik.
+  - title: electrive.net
+    url: https://www.electrive.net/feed/
+    website: https://www.electrive.net
+    description: Deutschsprachiges Nachrichtenportal zur Elektromobilität mit Meldungen zu E-Autos, Ladeinfrastruktur
+      und Batterietechnik.
+  - title: Elektroauto-News.net
+    url: https://www.elektroauto-news.net/feed
+    website: https://www.elektroauto-news.net
+    description: Deutschsprachige Nachrichtenseite über Elektroautos und Elektromobilität, mit Fahrzeugtests, Marktberichten
+      und Industrienews.
+  - title: Golem.de - Automobil
+    url: https://rss.golem.de/rss.php?tp=auto&feed=RSS2.0
+    website: https://www.golem.de/
+    description: Deutschsprachiges IT-Nachrichtenportal mit Automobil-Rubrik zu Elektroautos, Batterien, Software
+      und Mobilität.
+  - title: heise autos News
+    url: https://www.heise.de/autos/feed.xml
+    website: https://www.heise.de/
+    description: Deutschsprachige Nachrichtenrubrik von heise zum Auto- und Verkehrssektor, etwa Rückrufe, Reifentests,
+      E-Mobilität und Branchenentwicklungen.
+  - title: InsideEVs.de - News
+    url: https://insideevs.de/rss/news/all/
+    website: https://insideevs.de/news/
+    description: Deutschsprachige News-Seite zu Elektromobilität mit Meldungen zu E-Autos, Transportern, Batterien
+      und neuen Modellen.
+  - title: Mobilität
+    url: https://newsfeed.zeit.de/mobilitaet/index
+    website: https://www.zeit.de/mobilitaet/index
+    description: Nachrichten und Reportagen der ZEIT zum Thema Mobilität, etwa Bahn, Auto, Flugverkehr und E-Mobilität.
+  - title: n-tv Auto
+    url: https://www.n-tv.de/auto/rss
+    website: https://www.n-tv.de/
+    description: Auto-Ressort von n-tv mit Tests, Neuvorstellungen und Verbraucherthemen rund ums Fahren.
+  - title: t3n.de - Mobilität
+    url: https://t3n.de/tag/mobilitaet/rss.xml
+    website: https://t3n.de
+    description: Deutschsprachiges t3n-Ressort für Mobilität mit Artikeln zu Verkehr, Elektroautos, Bahn und Ladetechnik.
+  - title: Technik & Motor - FAZ.NET
+    url: https://www.faz.net/rss/aktuell/technik-motor/
+    website: https://www.faz.net/aktuell/technik-motor/
+    description: Nachrichten- und Testrubrik der FAZ zu Technik, Computern und Motor-Themen auf Deutsch.
+  - title: Teslamag.de
+    url: https://teslamag.de/feed
+    website: https://teslamag.de/
+    description: Deutschsprachiges Blog mit Meldungen und Analysen rund um Tesla, Elektroautos und Ladetechnik.
+- title: Reisen
+  sources:
+  - title: Cruise Industry News
+    url: https://cruiseindustrynews.com/feed/
+    website: https://cruiseindustrynews.com/
+    description: 'Branchennachrichten zur Kreuzfahrtindustrie: Reedereien, Schiffsneubauten, Häfen und Zahlen, auf
+      Englisch.'
+  - title: Cruisetricks
+    url: https://www.cruisetricks.de/feed/
+    website: https://www.cruisetricks.de/
+    description: Deutschsprachiges Kreuzfahrt-Magazin mit Neuigkeiten zu Reedereien, Schiffen, Routen und Angeboten.
+  - title: Schiffe und Kreuzfahrten
+    url: https://www.schiffe-und-kreuzfahrten.de/feed/
+    website: https://www.schiffe-und-kreuzfahrten.de/
+    description: Deutschsprachiges Magazin über Kreuzfahrten und Schiffe mit Neuigkeiten zu Reedereien wie AIDA
+      und TUI Cruises.
+- title: Sport
+  sources:
+  - title: kicker
+    url: https://newsfeed.kicker.de/news/aktuell
+    website: https://www.kicker.de/
+    description: Deutschsprachiges Sportmagazin mit Schwerpunkt Fußball; im Feed stehen kurze Anrisse.
+  - title: n-tv Sport
+    url: https://www.n-tv.de/sport/rss
+    website: https://www.n-tv.de/
+    description: Sport-Ressort von n-tv mit Schwerpunkt Fußball, dazu Formel 1, Tennis und weitere Sportarten.
+  - title: Sportschau
+    url: https://www.sportschau.de/index~rss2.xml
+    website: https://www.sportschau.de/
+    description: Sportnachrichten der ARD zu Fußball, Wintersport, Leichtathletik und vielen weiteren Sportarten.
+- title: Film & TV
+  sources:
+  - title: /Film
+    url: https://www.slashfilm.com/feed/
+    website: https://www.slashfilm.com/
+    description: Englischsprachiges Filmmagazin mit Nachrichten, Kritiken und Analysen zu Kino, Streaming und Serien.
+  - title: Deadline Film
+    url: https://deadline.com/v/film/feed/
+    website: https://deadline.com/
+    description: Englischsprachiges Filmmagazin mit Branchennachrichten, Kritiken, Personalien und Berichten von
+      Festivals.
+  - title: DWDL
+    url: https://www.dwdl.de/rss/allethemen.xml
+    website: https://www.dwdl.de/
+    description: Deutschsprachiges Medienmagazin mit Nachrichten zu Fernsehen, Streaming, Film, Personalien und
+      Medienwirtschaft.
+  - title: Filmstarts
+    url: https://www.filmstarts.de/rss/nachrichten.xml
+    website: https://www.filmstarts.de/
+    description: Deutschsprachiges Filmmagazin mit Nachrichten, Kritiken, Streaming-Tipps und Hintergrundberichten
+      zu Kino und Serien.
+  - title: Letterboxd Journal
+    url: https://letterboxd.com/journal/rss/
+    website: https://letterboxd.com/
+    description: Englischsprachiges Filmmagazin der Plattform Letterboxd mit Listen, Essays und Interviews, oft
+      thematisch sortiert wie Horror oder Thriller.
+  - title: Moviepilot
+    url: https://www.moviepilot.de/rss/news
+    website: https://www.moviepilot.de/
+    description: Deutschsprachiges Filmmagazin mit Nachrichten, Empfehlungen und Kritiken zu Kino-, Streaming- und
+      TV-Inhalten.
+  - title: Serienjunkies
+    url: https://www.serienjunkies.de/news/rssfeed.xml
+    website: https://www.serienjunkies.de/
+    description: Deutschsprachiges Serienportal mit News zu Starts, Verlängerungen, Absetzungen und Streamingdiensten.
+- title: Musik
+  sources:
+  - title: laut.de
+    url: https://laut.de/_feeds/news/rss
+    website: https://laut.de/
+    description: Deutschsprachiges Musikportal mit News zu Künstlern, Alben und Tourneen.
+  - title: Rolling Stone
+    url: https://www.rollingstone.de/feed/
+    website: https://www.rollingstone.de/
+    description: Deutsche Ausgabe des Musikmagazins mit News, Kritiken und Geschichten aus Rock, Pop und Popkultur.
+- title: Kultur
+  sources:
+  - title: Perlentaucher
+    url: 'https://www.perlentaucher.de/index.rss'
+    added: 2026-10-06
+    website: 'https://www.perlentaucher.de/'
+    description: Kulturmagazin mit täglicher Presseschau der Feuilletons und Buchkritiken.
+  - title: SZ Kultur
+    url: 'https://rss.sueddeutsche.de/rss/Kultur'
+    added: 2026-10-06
+    website: 'https://www.sueddeutsche.de/kultur'
+    description: Feuilleton der Süddeutschen Zeitung zu Literatur, Kunst, Theater, Film und Debatten.
+  - title: DER SPIEGEL Kultur
+    url: 'https://www.spiegel.de/kultur/index.rss'
+    added: 2026-10-06
+    website: 'https://www.spiegel.de/kultur/'
+    description: Kulturressort des SPIEGEL mit Berichten zu Büchern, Kunst, Musik und Film.
+  - title: tagesschau Kultur
+    url: 'https://www.tagesschau.de/kultur/index~rss2.xml'
+    added: 2026-10-06
+    website: 'https://www.tagesschau.de/kultur'
+    description: Kulturnachrichten der ARD aus Literatur, Kunst, Bühne, Musik und Film.
+  - title: Deutschlandfunk Kultur Literatur
+    url: 'https://www.deutschlandfunkkultur.de/literatur-100.rss'
+    added: 2026-10-06
+    website: 'https://www.deutschlandfunkkultur.de/'
+    description: Literaturredaktion von Deutschlandfunk Kultur mit Buchkritiken, Interviews und Neuerscheinungen.
+  - title: monopol
+    url: 'https://www.monopol-magazin.de/rss.xml'
+    added: 2026-10-06
+    website: 'https://www.monopol-magazin.de/'
+    description: Magazin für Kunst und Leben mit Nachrichten zu Ausstellungen, Künstlern und Kunstmarkt.
+  - title: nachtkritik.de
+    url: 'https://nachtkritik.de/index.php?format=feed&type=rss'
+    added: 2026-10-06
+    website: 'https://nachtkritik.de/'
+    description: Theaterportal mit Kritiken zu Premieren im deutschsprachigen Raum und Debatten über die Bühne.
+  - title: The Guardian Culture
+    url: 'https://www.theguardian.com/uk/culture/rss'
+    added: 2026-10-06
+    website: 'https://www.theguardian.com/culture'
+    description: Englischsprachiges Kulturressort des Guardian zu Büchern, Kunst, Bühne, Film und Musik.
+- title: Essen & Trinken
+  sources:
+  - title: 'essen & trinken'
+    url: 'https://www.essen-und-trinken.de/feed/rss/'
+    added: 2026-10-06
+    website: 'https://www.essen-und-trinken.de/'
+    description: Kochmagazin mit Rezepten, Küchenwissen und saisonalen Ideen.
+  - title: 'Eat this!'
+    url: 'https://www.eat-this.org/feed/'
+    added: 2026-10-06
+    website: 'https://www.eat-this.org/'
+    description: Vegetarischer und veganer Foodblog mit kreativen Rezepten und Küchentipps.
+  - title: Kochkarussell
+    url: 'https://kochkarussell.com/feed/'
+    added: 2026-10-06
+    website: 'https://kochkarussell.com/'
+    description: Foodblog mit frischen, alltagstauglichen Rezepten für jeden Tag.
+  - title: BBC Good Food
+    url: 'https://www.bbcgoodfood.com/feed'
+    added: 2026-10-06
+    website: 'https://www.bbcgoodfood.com/'
+    description: Englischsprachiges Kochportal mit Rezepten, Ernährungstipps und Küchenratgebern.
+  - title: The Guardian Food
+    url: 'https://www.theguardian.com/food/rss'
+    added: 2026-10-06
+    website: 'https://www.theguardian.com/food'
+    description: Englischsprachige Food-Rubrik des Guardian mit Rezepten, Restaurantkritiken und Esskultur.
+- title: Gaming
+  sources:
+  - title: Eurogamer.de
+    url: https://www.eurogamer.de/feed
+    website: https://www.eurogamer.de/
+    description: Deutschsprachige Spieleseite mit News, Tests und Guides für Konsolen und PC.
+  - title: GameStar
+    url: https://www.gamestar.de/news/rss/news.rss
+    website: https://www.gamestar.de/
+    description: Deutschsprachiges Spielemagazin mit News, Tests und Hardware-Themen, Schwerpunkt PC.
+  - title: Nintendo Life
+    url: https://www.nintendolife.com/feeds/latest
+    website: https://www.nintendolife.com/
+    description: Englischsprachiges Nachrichtenportal zu Nintendo-Spielen, Konsolen und der Spielebranche, mit Tests,
+      Gerüchten und Charts.
+  - title: ntower
+    url: https://www.ntower.de/news-feed
+    website: https://www.ntower.de/
+    description: Deutschsprachiges Portal zu Nintendo-Spielen und -Konsolen mit News, Tests, Terminen und Download-Übersichten.
+  - title: PlayStation Blog
+    url: https://blog.playstation.com/feed/
+    website: https://blog.playstation.com/
+    description: Offizieller PlayStation-Blog mit Ankündigungen, Interviews und Neuigkeiten zu Spielen und Diensten
+      für PS5 und PlayStation Plus; englischsprachig.
+  - title: Steam Deck News
+    url: https://store.steampowered.com/feeds/news/app/1675200/?cc=DE&l=german
+    website: https://store.steampowered.com/
+    description: Englischsprachige Meldungen zu Steam-Client- und SteamOS-Updates, teils auch auf Deutsch, aus dem
+      Steam Store.
+- title: Religion
+  sources:
+  - title: evangelisch.de
+    url: 'https://www.evangelisch.de/rss/nachrichten.rss'
+    added: 2026-10-06
+    website: 'https://www.evangelisch.de/'
+    description: Portal der evangelischen Kirche in Deutschland mit Nachrichten aus Kirche, Glaube und Gesellschaft.
+  - title: DOMRADIO.DE
+    url: 'https://www.domradio.de/rss-feeds/domradio-rss.xml'
+    added: 2026-10-06
+    website: 'https://www.domradio.de/'
+    description: Katholischer Sender aus Köln mit Nachrichten aus Kirche, Weltkirche und Glaubensleben.
+  - title: Jüdische Allgemeine
+    url: 'https://www.juedische-allgemeine.de/feed/'
+    added: 2026-10-06
+    website: 'https://www.juedische-allgemeine.de/'
+    description: Wochenzeitung des Zentralrats der Juden mit Nachrichten zu jüdischem Leben, Politik und Kultur.
+  - title: IslamiQ
+    url: 'https://www.islamiq.de/feed/'
+    added: 2026-10-06
+    website: 'https://www.islamiq.de/'
+    description: Nachrichtenmagazin über Islam und muslimisches Leben in Deutschland und Europa.
+  - title: religion.ORF.at
+    url: 'https://rss.orf.at/religion.xml'
+    added: 2026-10-06
+    website: 'https://religion.orf.at/'
+    description: Religionsredaktion des ORF mit Meldungen aus allen großen Religionen und dem interreligiösen Dialog.
+  - title: Deutschlandfunk Tag für Tag
+    url: 'https://www.deutschlandfunk.de/tag-fuer-tag-100.rss'
+    added: 2026-10-06
+    website: 'https://www.deutschlandfunk.de/'
+    description: Sendung „Aus Religion und Gesellschaft“ des Deutschlandfunks mit Berichten zu Glauben, Ethik und Kirchen.
+  - title: The Guardian Religion
+    url: 'https://www.theguardian.com/world/religion/rss'
+    added: 2026-10-06
+    website: 'https://www.theguardian.com/world/religion'
+    description: Englischsprachige Berichte des Guardian über Religionen und Glaubensgemeinschaften weltweit.
+- title: Panorama & Leute
+  sources:
+  - title: n-tv Leute
+    url: https://www.n-tv.de/leute/rss
+    website: https://www.n-tv.de/
+    description: Promi- und Leute-Ressort von n-tv mit Meldungen über Stars, Adel und Fernsehen.
+  - title: n-tv Panorama
+    url: https://www.n-tv.de/panorama/rss
+    website: https://www.n-tv.de/
+    description: Panorama-Ressort von n-tv mit Meldungen zu Unglücken, Kriminalität, Wetter und Kuriosem.
+- title: Japan
+  sources:
+  - title: Unseen Japan
+    url: https://unseen-japan.com/feed/
+    website: https://unseen-japan.com/
+    description: Englischsprachiges Magazin zu Gesellschaft, Kultur, Geschichte und Alltag in Japan; Artikel vollständig
+      im Feed.
+- title: Sonstiges
+  sources:
+  - title: CoffeeGeek
+    url: https://coffeegeek.com/feed/
+    website: https://coffeegeek.com/
+    description: Englischsprachiges Blog rund um Espressomaschinen, Mühlen und Kaffeezubehör mit Testberichten und
+      Fachartikeln.
+  - title: Lightroom Workflow
+    url: https://www.matiash.com/blog.rss
+    website: https://www.matiash.com/
+    description: Englischsprachiger Blog mit Tipps und Neuerungen zu Adobe Lightroom und Camera Raw, inklusive Bildbearbeitungstechniken.
