@@ -3,10 +3,10 @@
 # Each source needs title and url (RSS or Atom feed); website and description are optional.
 #
 # Updates: raise `version` and date every change, so installations only see what is new to them.
-#   added: YYYY-MM-DD     on a new source (offered unselected, never forced)
+#   added: YYYY-MM-DD     on a new source (a further change the same day: YYYY-MM-DD.2, .3, …) (offered unselected, never forced)
 #   replaces: <old url>   when a feed moved (the source keeps its ID, selections and direct use)
 #   removed:              list of {url, title, removed: YYYY-MM-DD, reason} for dead sources
-version: 2026-10-06
+version: '2026-10-06.2'
 folders:
 - title: Nachrichten
   sources:
@@ -500,6 +500,58 @@ folders:
     url: https://teslamag.de/feed
     website: https://teslamag.de/
     description: Deutschsprachiges Blog mit Meldungen und Analysen rund um Tesla, Elektroautos und Ladetechnik.
+  - title: Automobil Industrie
+    url: 'https://www.automobil-industrie.vogel.de/rss/news.xml'
+    added: '2026-10-06.2'
+    website: 'https://www.automobil-industrie.vogel.de/'
+    description: Fachmedium der Autoindustrie mit Nachrichten zu Herstellern, Zulieferern, Produktion und Strategie.
+  - title: Handelsblatt Auto
+    url: 'https://feeds.cms.handelsblatt.com/auto'
+    added: '2026-10-06.2'
+    website: 'https://www.handelsblatt.com/mobilitaet/'
+    description: Auto- und Mobilitätsressort des Handelsblatts mit Wirtschaftsblick auf die Branche.
+  - title: kfz-betrieb
+    url: 'https://www.kfz-betrieb.vogel.de/rss/news.xml'
+    added: '2026-10-06.2'
+    website: 'https://www.kfz-betrieb.vogel.de/'
+    description: Fachmedium für Autohandel und Werkstätten mit Branchen- und Herstellernachrichten.
+  - title: AUTO BILD
+    url: 'https://www.autobild.de/rss/22590661.xml'
+    added: '2026-10-06.2'
+    website: 'https://www.autobild.de/'
+    description: Automagazin mit Neuheiten, Tests und Nachrichten rund ums Auto.
+- title: Garten & Heimwerken
+  sources:
+  - title: NDR Garten
+    url: 'https://www.ndr.de/ratgeber/garten/index~rss2.xml'
+    added: '2026-10-06.2'
+    website: 'https://www.ndr.de/ratgeber/garten/'
+    description: Garten-Ratgeber des NDR mit saisonalen Tipps zu Pflanzen, Rasen, Gemüse und Gartenarbeit.
+  - title: Gartenjournal
+    url: 'https://www.gartenjournal.net/feed'
+    added: '2026-10-06.2'
+    website: 'https://www.gartenjournal.net/'
+    description: Gartenmagazin mit Anleitungen zu Pflanzenpflege, Schnitt, Anbau und Gartengestaltung.
+  - title: Hausgarten.net
+    url: 'https://www.hausgarten.net/feed/'
+    added: '2026-10-06.2'
+    website: 'https://www.hausgarten.net/'
+    description: Ratgeber rund um Haus und Garten mit Pflanzenporträts, Pflegetipps und kleinen Projekten.
+  - title: Plantura
+    url: 'https://www.plantura.garden/feed'
+    added: '2026-10-06.2'
+    website: 'https://www.plantura.garden/'
+    description: Gartenmagazin mit Wissen zu Gemüse, Obst, Zierpflanzen und naturnahem Gärtnern.
+  - title: Family Handyman
+    url: 'https://www.familyhandyman.com/feed/'
+    added: '2026-10-06.2'
+    website: 'https://www.familyhandyman.com/'
+    description: Englischsprachiges Heimwerker-Magazin mit Anleitungen zu Reparaturen, Renovierung und Werkzeug.
+  - title: Bob Vila
+    url: 'https://www.bobvila.com/feed/'
+    added: '2026-10-06.2'
+    website: 'https://www.bobvila.com/'
+    description: Englischsprachiges Portal für Heimwerken, Hausrenovierung und Garten mit Projektideen und Tipps.
 - title: Reisen
   sources:
   - title: Cruise Industry News
@@ -530,6 +582,31 @@ folders:
     url: https://www.sportschau.de/index~rss2.xml
     website: https://www.sportschau.de/
     description: Sportnachrichten der ARD zu Fußball, Wintersport, Leichtathletik und vielen weiteren Sportarten.
+  - title: FIT FOR FUN
+    url: 'https://www.fitforfun.de/rss'
+    added: '2026-10-06.2'
+    website: 'https://www.fitforfun.de/'
+    description: Fitness-Magazin mit Training, Krafttraining, Laufen und Ernährung.
+  - title: Aktiv Laufen
+    url: 'https://aktiv-laufen.de/feed/'
+    added: '2026-10-06.2'
+    website: 'https://aktiv-laufen.de/'
+    description: Laufmagazin mit Trainingstipps, Wettkämpfen und Ausrüstung für Läuferinnen und Läufer.
+  - title: SWIM
+    url: 'https://swim.de/feed/'
+    added: '2026-10-06.2'
+    website: 'https://swim.de/'
+    description: Schwimmmagazin mit Technik, Training, Wettkämpfen und Freiwasserschwimmen.
+  - title: SwimSwam
+    url: 'https://swimswam.com/feed/'
+    added: '2026-10-06.2'
+    website: 'https://swimswam.com/'
+    description: Englischsprachiges Schwimmportal mit Ergebnissen und Nachrichten aus dem Leistungsschwimmen.
+  - title: "Runner's World"
+    url: 'https://www.runnersworld.com/rss/all.xml/'
+    added: '2026-10-06.2'
+    website: 'https://www.runnersworld.com/'
+    description: Englischsprachiges Laufmagazin mit Training, Wettkämpfen, Ausrüstung und Gesundheit.
 - title: Film & TV
   sources:
   - title: /Film
@@ -644,6 +721,21 @@ folders:
     added: 2026-10-06
     website: 'https://www.theguardian.com/food'
     description: Englischsprachige Food-Rubrik des Guardian mit Rezepten, Restaurantkritiken und Esskultur.
+  - title: Deutschland is(s)t vegan
+    url: 'https://www.deutschlandistvegan.de/feed/'
+    added: '2026-10-06.2'
+    website: 'https://www.deutschlandistvegan.de/'
+    description: Foodblog mit veganen und vegetarischen Alltagsrezepten.
+  - title: Love and Lemons
+    url: 'https://www.loveandlemons.com/feed/'
+    added: '2026-10-06.2'
+    website: 'https://www.loveandlemons.com/'
+    description: Englischsprachiger vegetarischer Foodblog mit saisonalen Rezepten.
+  - title: Cookie and Kate
+    url: 'https://cookieandkate.com/feed/'
+    added: '2026-10-06.2'
+    website: 'https://cookieandkate.com/'
+    description: Englischsprachiger vegetarischer Foodblog mit einfachen Vollwertrezepten.
 - title: Gaming
   sources:
   - title: Eurogamer.de

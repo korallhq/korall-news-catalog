@@ -23,7 +23,7 @@ from urllib.parse import urlsplit
 
 import yaml
 
-DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
+DATE = re.compile(r"\d{4}-\d{2}-\d{2}(\.\d)?")  # a further change the same day: .2 … .9
 LOCAL_SUFFIXES = (".local", ".lan", ".home", ".internal", ".localhost", ".arpa", ".intranet", ".corp")
 FEED_TAGS = ("<rss", "<feed", "<rdf:RDF", "<rdf")
 
@@ -47,7 +47,7 @@ def problems(data: dict) -> list[str]:
     found = []
     version = str(data.get("version") or "")
     if not DATE.fullmatch(version):
-        found.append("version must be a date (YYYY-MM-DD)")
+        found.append("version must be a date (YYYY-MM-DD, or YYYY-MM-DD.2 for a further change that day)")
     seen: dict[str, str] = {}
     folders = data.get("folders")
     if not isinstance(folders, list) or not folders:

@@ -21,7 +21,7 @@ confirmation:
 ## Format
 
 ```yaml
-version: 2026-10-06              # raise with every change
+version: 2026-10-06              # raise with every change; same day again: 2026-10-06.2
 folders:
 - title: Nachrichten
   sources:
@@ -39,6 +39,10 @@ removed:                         # dead or discontinued feeds
 ```
 
 ## Contributing
+
+**Missing sources for a topic?** Open an issue with the “Sources wanted” form – korall links there
+from sections that have hardly any sources.
+
 
 Pull requests are welcome. A source should be a working public feed, reputable, and useful to
 more than one person. Date new entries with `added`, raise `version`, and keep descriptions short

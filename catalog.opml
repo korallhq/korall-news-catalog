@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <opml version="2.0">
   <head>
-    <title>korall news catalog 2026-10-06</title>
+    <title>korall news catalog 2026-10-06.2</title>
   </head>
   <body>
     <outline text="Nachrichten" title="Nachrichten">
@@ -129,6 +129,18 @@
       <outline type="rss" text="t3n.de - Mobilität" title="t3n.de - Mobilität" xmlUrl="https://t3n.de/tag/mobilitaet/rss.xml" htmlUrl="https://t3n.de" />
       <outline type="rss" text="Technik &amp; Motor - FAZ.NET" title="Technik &amp; Motor - FAZ.NET" xmlUrl="https://www.faz.net/rss/aktuell/technik-motor/" htmlUrl="https://www.faz.net/aktuell/technik-motor/" />
       <outline type="rss" text="Teslamag.de" title="Teslamag.de" xmlUrl="https://teslamag.de/feed" htmlUrl="https://teslamag.de/" />
+      <outline type="rss" text="Automobil Industrie" title="Automobil Industrie" xmlUrl="https://www.automobil-industrie.vogel.de/rss/news.xml" htmlUrl="https://www.automobil-industrie.vogel.de/" />
+      <outline type="rss" text="Handelsblatt Auto" title="Handelsblatt Auto" xmlUrl="https://feeds.cms.handelsblatt.com/auto" htmlUrl="https://www.handelsblatt.com/mobilitaet/" />
+      <outline type="rss" text="kfz-betrieb" title="kfz-betrieb" xmlUrl="https://www.kfz-betrieb.vogel.de/rss/news.xml" htmlUrl="https://www.kfz-betrieb.vogel.de/" />
+      <outline type="rss" text="AUTO BILD" title="AUTO BILD" xmlUrl="https://www.autobild.de/rss/22590661.xml" htmlUrl="https://www.autobild.de/" />
+    </outline>
+    <outline text="Garten &amp; Heimwerken" title="Garten &amp; Heimwerken">
+      <outline type="rss" text="NDR Garten" title="NDR Garten" xmlUrl="https://www.ndr.de/ratgeber/garten/index~rss2.xml" htmlUrl="https://www.ndr.de/ratgeber/garten/" />
+      <outline type="rss" text="Gartenjournal" title="Gartenjournal" xmlUrl="https://www.gartenjournal.net/feed" htmlUrl="https://www.gartenjournal.net/" />
+      <outline type="rss" text="Hausgarten.net" title="Hausgarten.net" xmlUrl="https://www.hausgarten.net/feed/" htmlUrl="https://www.hausgarten.net/" />
+      <outline type="rss" text="Plantura" title="Plantura" xmlUrl="https://www.plantura.garden/feed" htmlUrl="https://www.plantura.garden/" />
+      <outline type="rss" text="Family Handyman" title="Family Handyman" xmlUrl="https://www.familyhandyman.com/feed/" htmlUrl="https://www.familyhandyman.com/" />
+      <outline type="rss" text="Bob Vila" title="Bob Vila" xmlUrl="https://www.bobvila.com/feed/" htmlUrl="https://www.bobvila.com/" />
     </outline>
     <outline text="Reisen" title="Reisen">
       <outline type="rss" text="Cruise Industry News" title="Cruise Industry News" xmlUrl="https://cruiseindustrynews.com/feed/" htmlUrl="https://cruiseindustrynews.com/" />
@@ -139,6 +151,11 @@
       <outline type="rss" text="kicker" title="kicker" xmlUrl="https://newsfeed.kicker.de/news/aktuell" htmlUrl="https://www.kicker.de/" />
       <outline type="rss" text="n-tv Sport" title="n-tv Sport" xmlUrl="https://www.n-tv.de/sport/rss" htmlUrl="https://www.n-tv.de/" />
       <outline type="rss" text="Sportschau" title="Sportschau" xmlUrl="https://www.sportschau.de/index~rss2.xml" htmlUrl="https://www.sportschau.de/" />
+      <outline type="rss" text="FIT FOR FUN" title="FIT FOR FUN" xmlUrl="https://www.fitforfun.de/rss" htmlUrl="https://www.fitforfun.de/" />
+      <outline type="rss" text="Aktiv Laufen" title="Aktiv Laufen" xmlUrl="https://aktiv-laufen.de/feed/" htmlUrl="https://aktiv-laufen.de/" />
+      <outline type="rss" text="SWIM" title="SWIM" xmlUrl="https://swim.de/feed/" htmlUrl="https://swim.de/" />
+      <outline type="rss" text="SwimSwam" title="SwimSwam" xmlUrl="https://swimswam.com/feed/" htmlUrl="https://swimswam.com/" />
+      <outline type="rss" text="Runner's World" title="Runner's World" xmlUrl="https://www.runnersworld.com/rss/all.xml/" htmlUrl="https://www.runnersworld.com/" />
     </outline>
     <outline text="Film &amp; TV" title="Film &amp; TV">
       <outline type="rss" text="/Film" title="/Film" xmlUrl="https://www.slashfilm.com/feed/" htmlUrl="https://www.slashfilm.com/" />
@@ -169,6 +186,9 @@
       <outline type="rss" text="Kochkarussell" title="Kochkarussell" xmlUrl="https://kochkarussell.com/feed/" htmlUrl="https://kochkarussell.com/" />
       <outline type="rss" text="BBC Good Food" title="BBC Good Food" xmlUrl="https://www.bbcgoodfood.com/feed" htmlUrl="https://www.bbcgoodfood.com/" />
       <outline type="rss" text="The Guardian Food" title="The Guardian Food" xmlUrl="https://www.theguardian.com/food/rss" htmlUrl="https://www.theguardian.com/food" />
+      <outline type="rss" text="Deutschland is(s)t vegan" title="Deutschland is(s)t vegan" xmlUrl="https://www.deutschlandistvegan.de/feed/" htmlUrl="https://www.deutschlandistvegan.de/" />
+      <outline type="rss" text="Love and Lemons" title="Love and Lemons" xmlUrl="https://www.loveandlemons.com/feed/" htmlUrl="https://www.loveandlemons.com/" />
+      <outline type="rss" text="Cookie and Kate" title="Cookie and Kate" xmlUrl="https://cookieandkate.com/feed/" htmlUrl="https://cookieandkate.com/" />
     </outline>
     <outline text="Gaming" title="Gaming">
       <outline type="rss" text="Eurogamer.de" title="Eurogamer.de" xmlUrl="https://www.eurogamer.de/feed" htmlUrl="https://www.eurogamer.de/" />

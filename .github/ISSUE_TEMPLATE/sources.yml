@@ -1,0 +1,38 @@
+name: Sources wanted
+description: A topic or section that lacks good feeds in the catalogue.
+title: "Sources wanted: "
+labels: ["sources wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Describe the topic, not yourself: this issue is public. Maintainers look for reputable,
+        working RSS or Atom feeds and add them by pull request.
+  - type: input
+    id: topic
+    attributes:
+      label: Topic or section
+      placeholder: e.g. Garden & DIY
+    validations:
+      required: true
+  - type: textarea
+    id: focus
+    attributes:
+      label: What should it cover?
+      description: The section's focus, including what to leave out.
+      placeholder: e.g. Gardening, vegetables, hobby DIY; no product tests
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language of the sources
+      options:
+        - German
+        - English
+        - Either
+  - type: textarea
+    id: examples
+    attributes:
+      label: Sites you already know (optional)
+      description: Websites you read on this topic; feeds are checked before they are added.
