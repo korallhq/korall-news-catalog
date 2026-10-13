@@ -6,7 +6,7 @@
 #   added: YYYY-MM-DD     on a new source (a further change the same day: YYYY-MM-DD.2, .3, …) (offered unselected, never forced)
 #   replaces: <old url>   when a feed moved (the source keeps its ID, selections and direct use)
 #   removed:              list of {url, title, removed: YYYY-MM-DD, reason} for dead sources
-version: '2026-10-13'
+version: '2026-10-13.2'
 folders:
 - title: Nachrichten
   sources:
@@ -121,7 +121,7 @@ folders:
     description: Nachrichten des Rundfunks Berlin-Brandenburg aus Berlin und Brandenburg.
   - title: buten un binnen
     topics: [Regional]
-    regions: [Bremen, Bremerhaven]
+    regions: [Bremen]
     kinds: [regional, public]
     publisher_type: public
     url: https://www.butenunbinnen.de/feed/rss/neuste-inhalte100.xml
@@ -273,8 +273,7 @@ folders:
     added: 2026-10-13
   - title: Ruhr Nachrichten Dortmund
     topics: [Regional]
-    regions: [Dortmund, Nordrhein-Westfalen]
-    localities: [Dortmund]
+    regions: [Nordrhein-Westfalen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://www.ruhrnachrichten.de/dortmund/feed/
@@ -283,8 +282,7 @@ folders:
     added: 2026-10-13
   - title: Dresdner Neueste Nachrichten Dresden
     topics: [Regional]
-    regions: [Dresden, Sachsen]
-    localities: [Dresden]
+    regions: [Sachsen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://www.dnn.de/arc/outboundfeeds/rss/category/lokales/dresden/?outputType=xml
@@ -293,8 +291,7 @@ folders:
     added: 2026-10-13
   - title: Rheinische Post Duisburg
     topics: [Regional]
-    regions: [Duisburg, Nordrhein-Westfalen]
-    localities: [Duisburg]
+    regions: [Nordrhein-Westfalen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://rp-online.de/nrw/staedte/duisburg/feed.rss
@@ -303,8 +300,7 @@ folders:
     added: 2026-10-13
   - title: Rheinische Post Düsseldorf
     topics: [Regional]
-    regions: [Düsseldorf, Nordrhein-Westfalen]
-    localities: [Düsseldorf]
+    regions: [Nordrhein-Westfalen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://rp-online.de/nrw/staedte/duesseldorf/feed.rss
@@ -313,8 +309,7 @@ folders:
     added: 2026-10-13
   - title: Frankfurter Rundschau Frankfurt
     topics: [Regional]
-    regions: [Frankfurt, Hessen]
-    localities: [Frankfurt]
+    regions: [Hessen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://www.fr.de/frankfurt/rssfeed.rdf
@@ -323,8 +318,7 @@ folders:
     added: 2026-10-13
   - title: Hannoversche Allgemeine Hannover
     topics: [Regional]
-    regions: [Hannover, Niedersachsen]
-    localities: [Hannover]
+    regions: [Niedersachsen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://www.haz.de/arc/outboundfeeds/rss/category/lokales/hannover/?outputType=xml
@@ -333,8 +327,7 @@ folders:
     added: 2026-10-13
   - title: HNA Kassel
     topics: [Regional]
-    regions: [Kassel, Hessen]
-    localities: [Kassel]
+    regions: [Hessen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://www.hna.de/kassel/rssfeed.rdf
@@ -343,8 +336,7 @@ folders:
     added: 2026-10-13
   - title: Rheinische Post Köln
     topics: [Regional]
-    regions: [Köln, Nordrhein-Westfalen]
-    localities: [Köln]
+    regions: [Nordrhein-Westfalen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://rp-online.de/nrw/staedte/koeln/feed.rss
@@ -353,8 +345,7 @@ folders:
     added: 2026-10-13
   - title: Leipziger Volkszeitung Leipzig
     topics: [Regional]
-    regions: [Leipzig, Sachsen]
-    localities: [Leipzig]
+    regions: [Sachsen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://www.lvz.de/arc/outboundfeeds/rss/category/lokales/leipzig/?outputType=xml
@@ -363,8 +354,7 @@ folders:
     added: 2026-10-13
   - title: Rheinische Post Moers
     topics: [Regional]
-    regions: [Moers, Nordrhein-Westfalen]
-    localities: [Moers]
+    regions: [Nordrhein-Westfalen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://rp-online.de/nrw/staedte/moers/feed.rss
@@ -373,8 +363,7 @@ folders:
     added: 2026-10-13
   - title: Süddeutsche Zeitung München
     topics: [Regional]
-    regions: [München, Bayern]
-    localities: [München]
+    regions: [Bayern]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://rss.sueddeutsche.de/rss/Muenchen
@@ -383,8 +372,7 @@ folders:
     added: 2026-10-13
   - title: Offenbach-Post Offenbach
     topics: [Regional]
-    regions: [Offenbach, Hessen]
-    localities: [Offenbach]
+    regions: [Hessen]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://www.op-online.de/offenbach/rssfeed.rdf
@@ -393,8 +381,7 @@ folders:
     added: 2026-10-13
   - title: Märkische Allgemeine Potsdam
     topics: [Regional]
-    regions: [Potsdam, Brandenburg]
-    localities: [Potsdam]
+    regions: [Brandenburg]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://www.maz-online.de/arc/outboundfeeds/rss/category/lokales/potsdam/?outputType=xml
@@ -403,8 +390,7 @@ folders:
     added: 2026-10-13
   - title: Trierischer Volksfreund Trier
     topics: [Regional]
-    regions: [Trier, Rheinland-Pfalz]
-    localities: [Trier]
+    regions: [Rheinland-Pfalz]
     kinds: [regional, other]
     publisher_type: editorial
     url: https://www.volksfreund.de/region/trier-trierer-land/feed.rss

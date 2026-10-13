@@ -26,6 +26,10 @@ import yaml
 DATE = re.compile(r"\d{4}-\d{2}-\d{2}(\.\d)?")  # a further change the same day: .2 … .9
 LOCAL_SUFFIXES = (".local", ".lan", ".home", ".internal", ".localhost", ".arpa", ".intranet", ".corp")
 FEED_TAGS = ("<rss", "<feed", "<rdf:RDF", "<rdf")
+# Reporting areas korall knows: the German federal states and nothing finer.
+STATES = {"Baden-Württemberg", "Bayern", "Berlin", "Brandenburg", "Bremen", "Hamburg", "Hessen",
+          "Mecklenburg-Vorpommern", "Niedersachsen", "Nordrhein-Westfalen", "Rheinland-Pfalz", "Saarland",
+          "Sachsen", "Sachsen-Anhalt", "Schleswig-Holstein", "Thüringen"}
 
 
 def public_url(url: str) -> bool:
@@ -72,9 +76,13 @@ def problems(data: dict) -> list[str]:
             if 'publisher_type' in item and (not isinstance(item['publisher_type'], str) or item['publisher_type'] not in {'public','editorial','specialist','official','other'}):
                 found.append(f"{label}: unsupported publisher_type")
             replaces = item.get("replaces") or []
-            for key in ("topics", "regions", "localities", "kinds"):
+            for key in ("topics", "regions", "kinds"):
                 if key in item and (not isinstance(item[key], list) or any(not isinstance(value, str) or not value.strip() for value in item[key])):
                     found.append(f"{label}: {key} must be a list of non-empty labels")
+            if isinstance(item.get("regions"), list) and any(region not in STATES for region in item["regions"]):
+                found.append(f"{label}: regions must be German federal states")
+            if "localities" in item:
+                found.append(f"{label}: localities are no longer supported; use regions with the federal state")
             if isinstance(item.get("kinds"), list) and any(not isinstance(kind, str) or kind not in {"national", "public", "regional", "knowledge", "other"} for kind in item["kinds"]):
                 found.append(f"{label}: unsupported source kind")
             for old in [replaces] if isinstance(replaces, str) else replaces:
