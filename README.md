@@ -29,6 +29,10 @@ folders:
     url: https://www.tagesschau.de/xml/rss2/
     website: https://www.tagesschau.de/
     description: Kurze Beschreibung auf Deutsch.
+    topics: [Nachrichten, Politik]           # optional, several focus labels
+    regions: [Deutschland]                  # optional, explicit reporting areas
+    publisher_type: public                  # public, editorial, specialist, official, other
+    kinds: [national, public]               # optional, overlapping facets
     added: 2026-10-06            # on new sources
     replaces: https://old.example/feed.xml   # when a feed moved
 removed:                         # dead or discontinued feeds
@@ -39,6 +43,13 @@ removed:                         # dead or discontinued feeds
 ```
 
 ## Regional coverage
+
+`topics`, `regions`, `localities` and `kinds` are optional discovery metadata, not assignments to a profile's
+sections. `publisher_type` describes the publisher independently of topic and reporting area. All 198 sources
+have a type: public broadcaster, newsroom, specialist site, first-party organisation/company or unclassified.
+`localities` names the cities of a local feed, so a neighbouring city is not recommended merely because it shares a federal state. A source is shown once even when several filters match it. Leave unknown reporting
+areas empty. A city feed can name both its city and federal state; state-level coverage is not
+a guarantee of local coverage for every city. Existing source IDs and subscriptions stay intact.
 
 The **Regional** folder includes a separate ARD feed for every German federal state, existing
 regional broadcasters, and local reporting from a mix of large and medium-sized cities.

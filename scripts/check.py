@@ -69,7 +69,14 @@ def problems(data: dict) -> list[str]:
             added = str(item.get("added") or "")
             if added and (not DATE.fullmatch(added) or added > version):
                 found.append(f"{label}: added must be a date not after the version")
+            if 'publisher_type' in item and (not isinstance(item['publisher_type'], str) or item['publisher_type'] not in {'public','editorial','specialist','official','other'}):
+                found.append(f"{label}: unsupported publisher_type")
             replaces = item.get("replaces") or []
+            for key in ("topics", "regions", "localities", "kinds"):
+                if key in item and (not isinstance(item[key], list) or any(not isinstance(value, str) or not value.strip() for value in item[key])):
+                    found.append(f"{label}: {key} must be a list of non-empty labels")
+            if isinstance(item.get("kinds"), list) and any(not isinstance(kind, str) or kind not in {"national", "public", "regional", "knowledge", "other"} for kind in item["kinds"]):
+                found.append(f"{label}: unsupported source kind")
             for old in [replaces] if isinstance(replaces, str) else replaces:
                 if not public_url(str(old)):
                     found.append(f"{label}: replaces must be a public http(s) address")
