@@ -6,7 +6,7 @@
 #   added: YYYY-MM-DD     on a new source (a further change the same day: YYYY-MM-DD.2, .3, …) (offered unselected, never forced)
 #   replaces: <old url>   when a feed moved (the source keeps its ID, selections and direct use)
 #   removed:              list of {url, title, removed: YYYY-MM-DD, reason} for dead sources
-version: '2026-10-13.2'
+version: '2026-10-16'
 folders:
 - title: Nachrichten
   sources:
@@ -16,6 +16,12 @@ folders:
     website: https://www.bbc.co.uk/
     description: Nachrichtenportal der britischen BBC mit internationalen Meldungen zu Politik, Gesellschaft, Sport
       und Wissenschaft, überwiegend auf Englisch.
+  - title: DER SPIEGEL
+    publisher_type: editorial
+    url: https://www.spiegel.de/schlagzeilen/index.rss
+    website: https://www.spiegel.de/
+    description: Schlagzeilen des Nachrichtenmagazins aus Politik, Wirtschaft, Kultur und Gesellschaft. Teils hinter Bezahlschranke.
+    added: 2026-10-16
   - title: Deutsche Welle
     publisher_type: public
     url: https://rss.dw.com/xml/rss-de-all
@@ -28,6 +34,12 @@ folders:
     website: https://www.deutschlandfunk.de/
     description: Deutschsprachige Nachrichtenredaktion mit Meldungen aus Politik, Wirtschaft und Gesellschaft, inklusive
       Eilmeldungen.
+  - title: Frankfurter Allgemeine Zeitung
+    publisher_type: editorial
+    url: https://www.faz.net/rss/aktuell/
+    website: https://www.faz.net/
+    description: Aktuelle Meldungen der überregionalen Tageszeitung aus Frankfurt, bürgerlich-konservativ. Teils hinter Bezahlschranke.
+    added: 2026-10-16
   - title: heute im bundestag
     publisher_type: official
     url: https://www.bundestag.de/static/appdata/includes/rss/hib.rss
@@ -46,6 +58,12 @@ folders:
     website: https://notesfrompoland.com/
     description: Englischsprachige Nachrichtenseite über Polen mit Berichten zu Politik, Wirtschaft, Gesellschaft
       und Geschichte.
+  - title: Süddeutsche Zeitung
+    publisher_type: editorial
+    url: https://rss.sueddeutsche.de/rss/Topthemen
+    website: https://www.sueddeutsche.de/
+    description: Topthemen der überregionalen Tageszeitung aus München, linksliberal. Teils hinter Bezahlschranke.
+    added: 2026-10-16
   - title: Tagesschau
     publisher_type: public
     url: https://www.tagesschau.de/xml/rss2/
@@ -57,18 +75,36 @@ folders:
     url: https://www.tagesschau.de/faktenfinder/index~rss2.xml
     website: https://www.tagesschau.de/faktenfinder
     description: Faktenchecks der ARD zu Falschmeldungen, Desinformation und umstrittenen Behauptungen.
+  - title: taz
+    publisher_type: editorial
+    url: https://taz.de/!p4608;rss/
+    website: https://taz.de/
+    description: Meldungen der überregionalen Tageszeitung aus Berlin, links, frei zugänglich.
+    added: 2026-10-16
   - title: The Guardian World
     publisher_type: editorial
     url: https://www.theguardian.com/world/rss
     website: https://www.theguardian.com/world
     description: Internationale Nachrichten der britischen Zeitung The Guardian mit ausführlichen Texten im Feed,
       auf Englisch.
+  - title: WELT
+    publisher_type: editorial
+    url: https://www.welt.de/feeds/topnews.rss
+    website: https://www.welt.de/
+    description: Top-Nachrichten der überregionalen Tageszeitung, konservativ. Teils hinter Bezahlschranke.
+    added: 2026-10-16
   - title: ZDFheute
     publisher_type: public
     url: https://www.zdfheute.de/rss/zdf/nachrichten
     website: https://www.zdfheute.de/
     description: Nachrichtenangebot des ZDF mit Meldungen, Hintergründen und Erklärstücken zu Politik, Gesellschaft
       und Wirtschaft.
+  - title: ZEIT ONLINE
+    publisher_type: editorial
+    url: https://newsfeed.zeit.de/index
+    website: https://www.zeit.de/
+    description: Aktuelle Artikel der Wochenzeitung mit Hintergründen zu Politik, Gesellschaft und Kultur, liberal. Teils hinter Bezahlschranke.
+    added: 2026-10-16
 - title: Regional
   sources:
   - title: WDR

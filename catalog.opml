@@ -1,20 +1,26 @@
 <?xml version='1.0' encoding='utf-8'?>
 <opml version="2.0">
   <head>
-    <title>korall news catalog 2026-10-13.2</title>
+    <title>korall news catalog 2026-10-16</title>
   </head>
   <body>
     <outline text="Nachrichten" title="Nachrichten">
       <outline type="rss" text="BBC World" title="BBC World" xmlUrl="https://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.co.uk/" />
+      <outline type="rss" text="DER SPIEGEL" title="DER SPIEGEL" xmlUrl="https://www.spiegel.de/schlagzeilen/index.rss" htmlUrl="https://www.spiegel.de/" />
       <outline type="rss" text="Deutsche Welle" title="Deutsche Welle" xmlUrl="https://rss.dw.com/xml/rss-de-all" htmlUrl="https://www.dw.com/de/" />
       <outline type="rss" text="Deutschlandfunk Nachrichten" title="Deutschlandfunk Nachrichten" xmlUrl="https://www.deutschlandfunk.de/nachrichten-100.rss" htmlUrl="https://www.deutschlandfunk.de/" />
+      <outline type="rss" text="Frankfurter Allgemeine Zeitung" title="Frankfurter Allgemeine Zeitung" xmlUrl="https://www.faz.net/rss/aktuell/" htmlUrl="https://www.faz.net/" />
       <outline type="rss" text="heute im bundestag" title="heute im bundestag" xmlUrl="https://www.bundestag.de/static/appdata/includes/rss/hib.rss" htmlUrl="https://www.bundestag.de/presse/hib" />
       <outline type="rss" text="n-tv Politik" title="n-tv Politik" xmlUrl="https://www.n-tv.de/politik/rss" htmlUrl="https://www.n-tv.de/" />
       <outline type="rss" text="Notes from Poland" title="Notes from Poland" xmlUrl="https://notesfrompoland.com/feed/" htmlUrl="https://notesfrompoland.com/" />
+      <outline type="rss" text="Süddeutsche Zeitung" title="Süddeutsche Zeitung" xmlUrl="https://rss.sueddeutsche.de/rss/Topthemen" htmlUrl="https://www.sueddeutsche.de/" />
       <outline type="rss" text="Tagesschau" title="Tagesschau" xmlUrl="https://www.tagesschau.de/xml/rss2/" htmlUrl="https://www.tagesschau.de/" />
       <outline type="rss" text="tagesschau Faktenfinder" title="tagesschau Faktenfinder" xmlUrl="https://www.tagesschau.de/faktenfinder/index~rss2.xml" htmlUrl="https://www.tagesschau.de/faktenfinder" />
+      <outline type="rss" text="taz" title="taz" xmlUrl="https://taz.de/!p4608;rss/" htmlUrl="https://taz.de/" />
       <outline type="rss" text="The Guardian World" title="The Guardian World" xmlUrl="https://www.theguardian.com/world/rss" htmlUrl="https://www.theguardian.com/world" />
+      <outline type="rss" text="WELT" title="WELT" xmlUrl="https://www.welt.de/feeds/topnews.rss" htmlUrl="https://www.welt.de/" />
       <outline type="rss" text="ZDFheute" title="ZDFheute" xmlUrl="https://www.zdfheute.de/rss/zdf/nachrichten" htmlUrl="https://www.zdfheute.de/" />
+      <outline type="rss" text="ZEIT ONLINE" title="ZEIT ONLINE" xmlUrl="https://newsfeed.zeit.de/index" htmlUrl="https://www.zeit.de/" />
     </outline>
     <outline text="Regional" title="Regional">
       <outline type="rss" text="WDR" title="WDR" xmlUrl="https://www1.wdr.de/uebersicht-100.feed" htmlUrl="https://www1.wdr.de/nachrichten/" />
