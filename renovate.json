@@ -7,5 +7,13 @@
   "prConcurrentLimit": 4,
   "automerge": false,
   "osvVulnerabilityAlerts": true,
-  "vulnerabilityAlerts": {"labels": ["security"]}
+  "vulnerabilityAlerts": {"labels": ["security"]},
+  "packageRules": [
+    {
+      "description": "All updates share one pull request and one check run.",
+      "matchPackageNames": ["*"],
+      "groupName": "all updates",
+      "groupSlug": "all"
+    }
+  ]
 }
