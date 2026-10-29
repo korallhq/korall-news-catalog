@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <opml version="2.0">
   <head>
-    <title>korall news catalog 2026-10-29</title>
+    <title>korall news catalog 2026-10-29.2</title>
   </head>
   <body>
     <outline text="Nachrichten" title="Nachrichten">
@@ -71,6 +71,7 @@
       <outline type="rss" text="AdGuard Blog" title="AdGuard Blog" xmlUrl="https://adguard.com/blog/rss-en.xml" htmlUrl="https://adguard.com/" />
       <outline type="rss" text="Anthropic News" title="Anthropic News" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml" htmlUrl="https://www.anthropic.com/" />
       <outline type="rss" text="Ars Technica" title="Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com/" />
+      <outline type="rss" text="BleepingComputer" title="BleepingComputer" xmlUrl="https://www.bleepingcomputer.com/feed/" htmlUrl="https://www.bleepingcomputer.com/" />
       <outline type="rss" text="Brave Blog" title="Brave Blog" xmlUrl="https://brave.com/blog/index.xml" htmlUrl="https://brave.com/blog/" />
       <outline type="rss" text="Caschys Blog" title="Caschys Blog" xmlUrl="https://stadt-bremerhaven.de/feed/" htmlUrl="https://stadt-bremerhaven.de/" />
       <outline type="rss" text="ComputerBase" title="ComputerBase" xmlUrl="https://www.computerbase.de/rss/news.xml" htmlUrl="https://www.computerbase.de/" />
@@ -80,12 +81,15 @@
       <outline type="rss" text="Google Blog" title="Google Blog" xmlUrl="https://blog.google/rss/" htmlUrl="https://blog.google/" />
       <outline type="rss" text="Google DeepMind" title="Google DeepMind" xmlUrl="https://deepmind.google/blog/rss.xml" htmlUrl="https://deepmind.google/" />
       <outline type="rss" text="heise online News" title="heise online News" xmlUrl="https://www.heise.de/rss/heise-atom.xml" htmlUrl="https://www.heise.de/" />
+      <outline type="rss" text="heise security" title="heise security" xmlUrl="https://www.heise.de/security/feed.xml" htmlUrl="https://www.heise.de/security/" />
       <outline type="rss" text="Hueblog.de" title="Hueblog.de" xmlUrl="https://hueblog.de/feed/" htmlUrl="https://hueblog.de/" />
       <outline type="rss" text="Hugging Face - Blog" title="Hugging Face - Blog" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog" />
       <outline type="rss" text="Julia Evans" title="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="https://jvns.ca/" />
       <outline type="rss" text="Kagi Blog" title="Kagi Blog" xmlUrl="https://blog.kagi.com/rss.xml" htmlUrl="https://blog.kagi.com/" />
       <outline type="rss" text="Kagi Release Notes" title="Kagi Release Notes" xmlUrl="https://kagifeedback.org/atom/t/release-notes" htmlUrl="https://kagifeedback.org/" />
+      <outline type="rss" text="Krebs on Security" title="Krebs on Security" xmlUrl="https://krebsonsecurity.com/feed/" htmlUrl="https://krebsonsecurity.com/" />
       <outline type="rss" text="Kuketz IT-Security" title="Kuketz IT-Security" xmlUrl="https://www.kuketz-blog.de/feed/" htmlUrl="https://www.kuketz-blog.de/" />
+      <outline type="rss" text="Lilith Wittmann" title="Lilith Wittmann" xmlUrl="https://www.lilithwittmann.de/rss.xml" htmlUrl="https://www.lilithwittmann.de/" />
       <outline type="rss" text="MIT Technology Review" title="MIT Technology Review" xmlUrl="https://www.technologyreview.com/feed/" htmlUrl="https://www.technologyreview.com" />
       <outline type="rss" text="Mullvad Blog" title="Mullvad Blog" xmlUrl="https://mullvad.net/de/blog/feed/atom/" htmlUrl="https://www.mullvad.net/" />
       <outline type="rss" text="n-tv Technik" title="n-tv Technik" xmlUrl="https://www.n-tv.de/technik/rss" htmlUrl="https://www.n-tv.de/" />
@@ -95,9 +99,12 @@
       <outline type="rss" text="Simon Willison's Weblog" title="Simon Willison's Weblog" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="http://simonwillison.net/" />
       <outline type="rss" text="TARNKAPPE.INFO" title="TARNKAPPE.INFO" xmlUrl="https://tarnkappe.info/feed" htmlUrl="https://tarnkappe.info/" />
       <outline type="rss" text="THE DECODER" title="THE DECODER" xmlUrl="https://the-decoder.de/feed/" htmlUrl="https://the-decoder.de/" />
+      <outline type="rss" text="The Intercept" title="The Intercept" xmlUrl="https://theintercept.com/feed/" htmlUrl="https://theintercept.com/" />
       <outline type="rss" text="The Verge" title="The Verge" xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com/" />
       <outline type="rss" text="TorrentFreak" title="TorrentFreak" xmlUrl="https://torrentfreak.com/feed/" htmlUrl="https://torrentfreak.com/" />
       <outline type="rss" text="Vivaldi Blog" title="Vivaldi Blog" xmlUrl="https://vivaldi.com/feed/" htmlUrl="https://vivaldi.com/blog/" />
+      <outline type="rss" text="WIRED" title="WIRED" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com/" />
+      <outline type="rss" text="WIRED Security" title="WIRED Security" xmlUrl="https://www.wired.com/feed/category/security/latest/rss" htmlUrl="https://www.wired.com/category/security/" />
     </outline>
     <outline text="Cloud &amp; IT" title="Cloud &amp; IT">
       <outline type="rss" text="allesnurgecloud.com" title="allesnurgecloud.com" xmlUrl="https://allesnurgecloud.com/feed/" htmlUrl="https://allesnurgecloud.com/" />

@@ -6,7 +6,7 @@
 #   added: YYYY-MM-DD     on a new source (a further change the same day: YYYY-MM-DD.2, .3, …) (offered unselected, never forced)
 #   replaces: <old url>   when a feed moved (the source keeps its ID, selections and direct use)
 #   removed:              list of {url, title, removed: YYYY-MM-DD, reason} for dead sources
-version: '2026-10-29'
+version: '2026-10-29.2'
 folders:
 - title: Nachrichten
   sources:
@@ -500,6 +500,12 @@ folders:
     url: https://feeds.arstechnica.com/arstechnica/index
     website: https://arstechnica.com/
     description: Englischsprachiges Technikmagazin mit ausführlichen Artikeln zu IT, Wissenschaft, Politik und Spielen.
+  - title: BleepingComputer
+    publisher_type: specialist
+    url: https://www.bleepingcomputer.com/feed/
+    website: https://www.bleepingcomputer.com/
+    description: Englischsprachige Nachrichten zu Sicherheitslücken, Schadsoftware, Datenlecks und Ransomware.
+    added: 2026-10-29
   - title: Brave Blog
     publisher_type: official
     url: https://brave.com/blog/index.xml
@@ -550,6 +556,12 @@ folders:
     website: https://www.heise.de/
     description: Deutschsprachige IT-Nachrichten von heise online zu Sicherheit, Software, Hardware, Netzpolitik
       und Entwicklerthemen im Überblick.
+  - title: heise security
+    publisher_type: specialist
+    url: https://www.heise.de/security/feed.xml
+    website: https://www.heise.de/security/
+    description: Deutschsprachige Nachrichten von heise zu IT-Sicherheit, Sicherheitslücken, Updates und Angriffen.
+    added: 2026-10-29
   - title: Hueblog.de
     publisher_type: specialist
     url: https://hueblog.de/feed/
@@ -580,12 +592,24 @@ folders:
     website: https://kagifeedback.org/
     description: Englischsprachige Release Notes zu Kagi mit datierten Einträgen zu neuen Funktionen, Anmeldung
       und Übersetzungsdiensten.
+  - title: Krebs on Security
+    publisher_type: specialist
+    url: https://krebsonsecurity.com/feed/
+    website: https://krebsonsecurity.com/
+    description: Englischsprachige Recherchen des Journalisten Brian Krebs zu Cybercrime, Betrug und Datenlecks.
+    added: 2026-10-29
   - title: Kuketz IT-Security
     publisher_type: specialist
     url: https://www.kuketz-blog.de/feed/
     website: https://www.kuketz-blog.de/
     description: Deutschsprachiger Blog zu IT-Sicherheit, Datenschutz und digitaler Selbstbestimmung, mit Tests
       und Anleitungen zu Hardware, Apps und Diensten.
+  - title: Lilith Wittmann
+    publisher_type: specialist
+    url: https://www.lilithwittmann.de/rss.xml
+    website: https://www.lilithwittmann.de/
+    description: Deutschsprachiger Blog der Sicherheitsforscherin Lilith Wittmann zu Sicherheitslücken in Behörden-IT und Netzpolitik.
+    added: 2026-10-29
   - title: MIT Technology Review
     publisher_type: specialist
     url: https://www.technologyreview.com/feed/
@@ -637,6 +661,12 @@ folders:
     url: https://the-decoder.de/feed/
     website: https://the-decoder.de/
     description: Deutschsprachiges Nachrichtenportal zu Künstlicher Intelligenz, KI-Forschung und Produkten.
+  - title: The Intercept
+    publisher_type: editorial
+    url: https://theintercept.com/feed/
+    website: https://theintercept.com/
+    description: Englischsprachiger investigativer Journalismus zu Überwachung, Sicherheitspolitik und Bürgerrechten.
+    added: 2026-10-29
   - title: The Verge
     publisher_type: specialist
     url: https://www.theverge.com/rss/index.xml
@@ -653,6 +683,18 @@ folders:
     website: https://vivaldi.com/blog/
     description: Blog des Vivaldi-Browsers, überwiegend Versionshinweise für Desktop und Mobil, dazu Beiträge zu
       Datenschutz und einem besseren Web, auf Englisch.
+  - title: WIRED
+    publisher_type: editorial
+    url: https://www.wired.com/feed/rss
+    website: https://www.wired.com/
+    description: Englischsprachiges Technikmagazin zu Technologie, Wissenschaft, Kultur und Wirtschaft.
+    added: 2026-10-29
+  - title: WIRED Security
+    publisher_type: editorial
+    url: https://www.wired.com/feed/category/security/latest/rss
+    website: https://www.wired.com/category/security/
+    description: Englischsprachige Berichte von WIRED zu Cybersicherheit, Überwachung und digitaler Privatsphäre.
+    added: 2026-10-29
 - title: Cloud & IT
   sources:
   - title: allesnurgecloud.com
