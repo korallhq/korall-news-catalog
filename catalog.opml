@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <opml version="2.0">
   <head>
-    <title>korall news catalog 2026-10-29.2</title>
+    <title>korall news catalog 2026-10-29.3</title>
   </head>
   <body>
     <outline text="Nachrichten" title="Nachrichten">
@@ -119,7 +119,6 @@
     <outline text="Unternehmen" title="Unternehmen">
       <outline type="rss" text="Amazon News" title="Amazon News" xmlUrl="https://www.aboutamazon.com/rss/feed.rss" htmlUrl="https://www.aboutamazon.com/" />
       <outline type="rss" text="Apple Newsroom" title="Apple Newsroom" xmlUrl="https://www.apple.com/newsroom/rss-feed.rss" htmlUrl="https://www.apple.com/newsroom/" />
-      <outline type="rss" text="BMW Group PressClub" title="BMW Group PressClub" xmlUrl="https://www.press.bmwgroup.com/deutschland/rss" htmlUrl="https://www.press.bmwgroup.com/deutschland" />
       <outline type="rss" text="Carnival Corporation" title="Carnival Corporation" xmlUrl="https://www.carnivalcorp.com/feed/" htmlUrl="https://www.carnivalcorp.com/" />
       <outline type="rss" text="Disney" title="Disney" xmlUrl="https://thewaltdisneycompany.com/feed/" htmlUrl="https://thewaltdisneycompany.com/" />
       <outline type="rss" text="FRoSTA Blog" title="FRoSTA Blog" xmlUrl="https://www.frosta.de/feed/" htmlUrl="https://www.frosta.de/" />

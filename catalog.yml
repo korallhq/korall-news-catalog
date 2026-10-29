@@ -6,7 +6,7 @@
 #   added: YYYY-MM-DD     on a new source (a further change the same day: YYYY-MM-DD.2, .3, …) (offered unselected, never forced)
 #   replaces: <old url>   when a feed moved (the source keeps its ID, selections and direct use)
 #   removed:              list of {url, title, removed: YYYY-MM-DD, reason} for dead sources
-version: '2026-10-29.2'
+version: '2026-10-29.3'
 folders:
 - title: Nachrichten
   sources:
@@ -751,11 +751,6 @@ folders:
     url: https://www.apple.com/newsroom/rss-feed.rss
     website: https://www.apple.com/newsroom/
     description: Pressemitteilungen und Ankündigungen von Apple zu Produkten, Software und Unternehmen, auf Englisch.
-  - title: BMW Group PressClub
-    publisher_type: official
-    url: https://www.press.bmwgroup.com/deutschland/rss
-    website: https://www.press.bmwgroup.com/deutschland
-    description: Pressemitteilungen der BMW Group Deutschland zu Fahrzeugen, Werken, Technik und Unternehmen.
   - title: Carnival Corporation
     publisher_type: official
     url: https://www.carnivalcorp.com/feed/
@@ -1412,3 +1407,8 @@ folders:
     url: https://www.matiash.com/blog.rss
     website: https://www.matiash.com/
     description: Englischsprachiger Blog mit Tipps und Neuerungen zu Adobe Lightroom und Camera Raw, inklusive Bildbearbeitungstechniken.
+removed:
+- url: https://www.press.bmwgroup.com/deutschland/rss
+  title: BMW Group PressClub
+  removed: 2026-10-29
+  reason: Der PressClub ist in den BMW Group Newsroom umgezogen; die alte Adresse leitet auf eine Webseite um, einen RSS-Feed gibt es dort nicht mehr.
