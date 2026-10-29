@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <opml version="2.0">
   <head>
-    <title>korall news catalog 2026-10-16</title>
+    <title>korall news catalog 2026-10-29</title>
   </head>
   <body>
     <outline text="Nachrichten" title="Nachrichten">
@@ -27,6 +27,7 @@
       <outline type="rss" text="NDR" title="NDR" xmlUrl="https://www.ndr.de/index~rdf.xml" htmlUrl="https://www.ndr.de/nachrichten/" />
       <outline type="rss" text="MDR" title="MDR" xmlUrl="https://www.mdr.de/nachrichten/index~rss2.xml" htmlUrl="https://www.mdr.de/nachrichten/" />
       <outline type="rss" text="SWR Aktuell" title="SWR Aktuell" xmlUrl="https://www.swr.de/~rss/swraktuell/index.xml" htmlUrl="https://www.swr.de/swraktuell/" />
+      <outline type="rss" text="BR24 Bayern" title="BR24 Bayern" xmlUrl="https://nachrichtenfeeds.br.de/rss/nachrichten/seiten/QXAPkQJ" htmlUrl="https://www.br.de/nachrichten/bayern/" />
       <outline type="rss" text="hessenschau" title="hessenschau" xmlUrl="https://www.hessenschau.de/index.rss" htmlUrl="https://www.hessenschau.de/" />
       <outline type="rss" text="rbb24" title="rbb24" xmlUrl="https://www.rbb24.de/aktuell/index.xml/feed=rss.xml" htmlUrl="https://www.rbb24.de/" />
       <outline type="rss" text="buten un binnen" title="buten un binnen" xmlUrl="https://www.butenunbinnen.de/feed/rss/neuste-inhalte100.xml" htmlUrl="https://www.butenunbinnen.de/" />
@@ -60,6 +61,10 @@
       <outline type="rss" text="Offenbach-Post Offenbach" title="Offenbach-Post Offenbach" xmlUrl="https://www.op-online.de/offenbach/rssfeed.rdf" htmlUrl="https://www.op-online.de/offenbach/" />
       <outline type="rss" text="Märkische Allgemeine Potsdam" title="Märkische Allgemeine Potsdam" xmlUrl="https://www.maz-online.de/arc/outboundfeeds/rss/category/lokales/potsdam/?outputType=xml" htmlUrl="https://www.maz-online.de/lokales/potsdam/" />
       <outline type="rss" text="Trierischer Volksfreund Trier" title="Trierischer Volksfreund Trier" xmlUrl="https://www.volksfreund.de/region/trier-trierer-land/feed.rss" htmlUrl="https://www.volksfreund.de/region/trier-trierer-land/" />
+      <outline type="rss" text="Tagesspiegel Berlin" title="Tagesspiegel Berlin" xmlUrl="https://www.tagesspiegel.de/contentexport/feed/berlin" htmlUrl="https://www.tagesspiegel.de/berlin/" />
+      <outline type="rss" text="Hamburger Abendblatt Hamburg" title="Hamburger Abendblatt Hamburg" xmlUrl="https://www.abendblatt.de/hamburg/rss" htmlUrl="https://www.abendblatt.de/hamburg/" />
+      <outline type="rss" text="Weser-Kurier Bremen" title="Weser-Kurier Bremen" xmlUrl="https://www.weser-kurier.de/bremen/?view=rss" htmlUrl="https://www.weser-kurier.de/bremen/" />
+      <outline type="rss" text="nordbayern Nürnberg" title="nordbayern Nürnberg" xmlUrl="https://www.nordbayern.de/nuernberg?isRss=true" htmlUrl="https://www.nordbayern.de/nuernberg" />
     </outline>
     <outline text="Tech &amp; KI" title="Tech &amp; KI">
       <outline type="rss" text="9to5Mac" title="9to5Mac" xmlUrl="https://9to5mac.com/feed/" htmlUrl="https://9to5mac.com/" />

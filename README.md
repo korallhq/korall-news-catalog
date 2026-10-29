@@ -45,11 +45,13 @@ removed:                         # dead or discontinued feeds
 ## Regional coverage
 
 `topics`, `regions` and `kinds` are optional discovery metadata, not assignments to a profile's
-sections. `publisher_type` describes the publisher independently of topic and reporting area. All 198 sources
+sections. `publisher_type` describes the publisher independently of topic and reporting area. All 209 sources
 have a type: public broadcaster, newsroom, specialist site, first-party organisation/company or unclassified.
 `regions` lists German federal states only, also for a city feed; korall knows no finer reporting
-area and uses it as a search filter. korall does not recommend regional sources, since it does not
-ask where a reader lives; readers choose them with that filter. A source is shown once even when
+area and uses it as a search filter. When a reader names a place for a section, korall derives its
+federal state and recommends that state's broadcasters plus local feeds whose title or description
+names the town (local feeds start their description with "Lokalnachrichten … aus <Ort>"); otherwise
+readers choose regional sources with that filter. A source is shown once even when
 several filters match it. Leave unknown reporting areas empty. Existing source IDs and
 subscriptions stay intact.
 

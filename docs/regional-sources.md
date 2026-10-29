@@ -71,20 +71,33 @@ regional broadcasters. Additional local newspaper feeds:
 
 | City | Publisher feed | Entries in feed |
 | --- | --- | ---: |
+| Berlin | [Tagesspiegel](https://www.tagesspiegel.de/contentexport/feed/berlin) | 100 |
+| Bremen | [Weser-Kurier](https://www.weser-kurier.de/bremen/?view=rss) | 15 |
 | Dortmund | [Ruhr Nachrichten](https://www.ruhrnachrichten.de/dortmund/feed/) | 12 |
 | Dresden | [Dresdner Neueste Nachrichten](https://www.dnn.de/arc/outboundfeeds/rss/category/lokales/dresden/?outputType=xml) | 17 |
 | Duisburg | [Rheinische Post](https://rp-online.de/nrw/staedte/duisburg/feed.rss) | 20 |
 | Düsseldorf | [Rheinische Post](https://rp-online.de/nrw/staedte/duesseldorf/feed.rss) | 20 |
 | Frankfurt | [Frankfurter Rundschau](https://www.fr.de/frankfurt/rssfeed.rdf) | 40 |
+| Hamburg | [Hamburger Abendblatt](https://www.abendblatt.de/hamburg/rss) | 100 |
 | Hannover | [Hannoversche Allgemeine](https://www.haz.de/arc/outboundfeeds/rss/category/lokales/hannover/?outputType=xml) | 31 |
 | Kassel | [HNA](https://www.hna.de/kassel/rssfeed.rdf) | 40 |
 | Köln | [Rheinische Post](https://rp-online.de/nrw/staedte/koeln/feed.rss) | 20 |
 | Leipzig | [Leipziger Volkszeitung](https://www.lvz.de/arc/outboundfeeds/rss/category/lokales/leipzig/?outputType=xml) | 56 |
 | Moers | [Rheinische Post](https://rp-online.de/nrw/staedte/moers/feed.rss) | 20 |
 | München | [Süddeutsche Zeitung](https://rss.sueddeutsche.de/rss/Muenchen) | 15 |
+| Nürnberg | [nordbayern](https://www.nordbayern.de/nuernberg?isRss=true) | 27 |
 | Offenbach | [Offenbach-Post](https://www.op-online.de/offenbach/rssfeed.rdf) | 40 |
 | Potsdam | [Märkische Allgemeine](https://www.maz-online.de/arc/outboundfeeds/rss/category/lokales/potsdam/?outputType=xml) | 20 |
 | Trier | [Trierischer Volksfreund](https://www.volksfreund.de/region/trier-trierer-land/feed.rss) | 20 |
+
+### Added 2026-10-29
+
+BR24's Bayern feed (`https://nachrichtenfeeds.br.de/rss/nachrichten/seiten/QXAPkQJ`, 53 entries, all
+from br.de/nachrichten/bayern) closes the missing broadcaster for Bayern. City feeds were checked for
+their share of local links: Hamburger Abendblatt 99 of 100, Weser-Kurier 14 of 15, Tagesspiegel
+Berlin 74 of 100, nordbayern Nürnberg 18 of 27. Saarländischer Rundfunk publishes no public news feed
+that could be found (sr.de links none; `index~rss.xml` paths return 404); Saarland keeps the Tagesschau
+state feed.
 
 ### Excluded candidates
 

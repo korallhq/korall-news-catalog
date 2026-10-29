@@ -6,7 +6,7 @@
 #   added: YYYY-MM-DD     on a new source (a further change the same day: YYYY-MM-DD.2, .3, …) (offered unselected, never forced)
 #   replaces: <old url>   when a feed moved (the source keeps its ID, selections and direct use)
 #   removed:              list of {url, title, removed: YYYY-MM-DD, reason} for dead sources
-version: '2026-10-16'
+version: '2026-10-29'
 folders:
 - title: Nachrichten
   sources:
@@ -139,6 +139,15 @@ folders:
     url: https://www.swr.de/~rss/swraktuell/index.xml
     website: https://www.swr.de/swraktuell/
     description: Nachrichten des Südwestrundfunks aus Baden-Württemberg und Rheinland-Pfalz.
+  - title: BR24 Bayern
+    topics: [Regional]
+    regions: [Bayern]
+    kinds: [regional, public]
+    publisher_type: public
+    url: https://nachrichtenfeeds.br.de/rss/nachrichten/seiten/QXAPkQJ
+    website: https://www.br.de/nachrichten/bayern/
+    description: Nachrichten des Bayerischen Rundfunks aus Bayern.
+    added: 2026-10-29
   - title: hessenschau
     topics: [Regional]
     regions: [Hessen]
@@ -433,6 +442,42 @@ folders:
     website: https://www.volksfreund.de/region/trier-trierer-land/
     description: Lokalnachrichten des Trierischen Volksfreunds aus Trier und dem Trierer Land zu Stadtpolitik, Wirtschaft, Kultur und Alltag.
     added: 2026-10-13
+  - title: Tagesspiegel Berlin
+    topics: [Regional]
+    regions: [Berlin]
+    kinds: [regional, other]
+    publisher_type: editorial
+    url: https://www.tagesspiegel.de/contentexport/feed/berlin
+    website: https://www.tagesspiegel.de/berlin/
+    description: Lokalnachrichten des Tagesspiegels aus Berlin zu Landespolitik, Bezirken, Verkehr und Kultur.
+    added: 2026-10-29
+  - title: Hamburger Abendblatt Hamburg
+    topics: [Regional]
+    regions: [Hamburg]
+    kinds: [regional, other]
+    publisher_type: editorial
+    url: https://www.abendblatt.de/hamburg/rss
+    website: https://www.abendblatt.de/hamburg/
+    description: Lokalnachrichten des Hamburger Abendblatts aus Hamburg zu Stadtpolitik, Stadtteilen, Verkehr und Kultur.
+    added: 2026-10-29
+  - title: Weser-Kurier Bremen
+    topics: [Regional]
+    regions: [Bremen]
+    kinds: [regional, other]
+    publisher_type: editorial
+    url: https://www.weser-kurier.de/bremen/?view=rss
+    website: https://www.weser-kurier.de/bremen/
+    description: Lokalnachrichten des Weser-Kuriers aus Bremen zu Stadtpolitik, Wirtschaft, Kultur und Alltag.
+    added: 2026-10-29
+  - title: nordbayern Nürnberg
+    topics: [Regional]
+    regions: [Bayern]
+    kinds: [regional, other]
+    publisher_type: editorial
+    url: https://www.nordbayern.de/nuernberg?isRss=true
+    website: https://www.nordbayern.de/nuernberg
+    description: Lokalnachrichten von nordbayern.de aus Nürnberg zu Stadtpolitik, Verkehr, Kultur und Alltag.
+    added: 2026-10-29
 - title: Tech & KI
   sources:
   - title: 9to5Mac
