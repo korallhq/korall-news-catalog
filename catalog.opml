@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <opml version="2.0">
   <head>
-    <title>korall news catalog 2026-10-29.3</title>
+    <title>korall news catalog 2026-11-08</title>
   </head>
   <body>
     <outline text="Nachrichten" title="Nachrichten">
@@ -154,6 +154,7 @@
       <outline type="rss" text="tagesschau Gesundheit" title="tagesschau Gesundheit" xmlUrl="https://www.tagesschau.de/wissen/gesundheit/index~rss2.xml" htmlUrl="https://www.tagesschau.de/wissen/gesundheit" />
       <outline type="rss" text="DER SPIEGEL Gesundheit" title="DER SPIEGEL Gesundheit" xmlUrl="https://www.spiegel.de/gesundheit/index.rss" htmlUrl="https://www.spiegel.de/gesundheit/" />
       <outline type="rss" text="NDR Visite" title="NDR Visite" xmlUrl="https://www.ndr.de/fernsehen/sendungen/visite/index~rss2.xml" htmlUrl="https://www.ndr.de/fernsehen/sendungen/visite/" />
+      <outline type="rss" text="NDR Die Ernährungs-Docs" title="NDR Die Ernährungs-Docs" xmlUrl="https://www.ndr.de/fernsehen/sendungen/die-ernaehrungsdocs/index~rss2.xml" htmlUrl="https://www.ndr.de/fernsehen/sendungen/die-ernaehrungsdocs/" />
       <outline type="rss" text="BBC Health" title="BBC Health" xmlUrl="https://feeds.bbci.co.uk/news/health/rss.xml" htmlUrl="https://www.bbc.co.uk/news/health" />
     </outline>
     <outline text="Klima &amp; Umwelt" title="Klima &amp; Umwelt">

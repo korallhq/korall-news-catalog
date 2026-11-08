@@ -6,7 +6,7 @@
 #   added: YYYY-MM-DD     on a new source (a further change the same day: YYYY-MM-DD.2, .3, …) (offered unselected, never forced)
 #   replaces: <old url>   when a feed moved (the source keeps its ID, selections and direct use)
 #   removed:              list of {url, title, removed: YYYY-MM-DD, reason} for dead sources
-version: '2026-10-29.3'
+version: '2026-11-08'
 folders:
 - title: Nachrichten
   sources:
@@ -907,6 +907,12 @@ folders:
     added: 2026-10-06
     website: 'https://www.ndr.de/fernsehen/sendungen/visite/'
     description: Gesundheitsmagazin des NDR mit verständlichen Ratgebern zu Krankheiten, Behandlungen und Vorsorge.
+  - title: NDR Die Ernährungs-Docs
+    publisher_type: public
+    url: 'https://www.ndr.de/fernsehen/sendungen/die-ernaehrungsdocs/index~rss2.xml'
+    added: 2026-11-08
+    website: 'https://www.ndr.de/fernsehen/sendungen/die-ernaehrungsdocs/'
+    description: Ernährungsmedizin-Sendung des NDR mit Rezepten, Ernährungsplänen und Tipps bei Krankheiten wie Diabetes oder Gicht.
   - title: BBC Health
     publisher_type: public
     url: 'https://feeds.bbci.co.uk/news/health/rss.xml'
