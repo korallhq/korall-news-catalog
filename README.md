@@ -1,6 +1,6 @@
 # korall news catalog
 
-The source catalogue of [korall](https://korall.news), a self-hosted news curator: a reviewed list
+The source catalogue of [korall](https://korall.news), a hosted personal news service: a reviewed list
 of RSS and Atom feeds, grouped in folders, with a short description for each source.
 
 - [`catalog.yml`](catalog.yml) is the catalogue korall reads.
@@ -8,15 +8,17 @@ of RSS and Atom feeds, grouped in folders, with a short description for each sou
 
 ## How korall uses it
 
-Every korall image ships a copy of this catalogue. Administrators may choose
-**Settings → Source catalogue → Official korall catalogue** to receive changes between releases.
-korall then loads `catalog.yml` from this repository (HTTPS, at most every six hours) and offers
-what changed since its last update under **Sources**. Nothing changes without the administrator's
-confirmation:
+The korall platform fetches `catalog.yml` from `main` once an hour and keeps the last valid document.
+Only a strictly newer `version` replaces it, so every change raises the version; rolling back means
+publishing a new, higher version with the old content.
 
-- new sources join the library unselected in every profile and are marked “New”;
-- moved feeds keep their place in profiles and direct subscriptions;
-- removed sources are deleted only when ticked, and never while a profile receives them directly.
+- Every profile sees every catalogue source. Profiles in automatic mode (the default for new
+  profiles) adopt matching new sources by themselves; manual profiles get them as recommendations.
+- Moved feeds listed under `replaces` keep their place in profiles.
+- Sources listed under `removed` leave the catalogue; customers' own sources are never affected.
+
+Changes arrive by pull request; the CI checks the format and that the version moves forward.
+New sources also appear in the korall.news Logbuch.
 
 ## Format
 
